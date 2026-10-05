@@ -1,0 +1,12 @@
+{
+  "name": "mabase",
+  "version": "2.1.0",
+  "private": true,
+  "description": "Application statique autonome, d\u00e9pendances pour les tests uniquement",
+  "scripts": {
+    "test": "node tests/functional.cjs && node tests/import.cjs && node tests/regressions.cjs && node tests/motion.cjs"
+  },
+  "devDependencies": {
+    "jsdom": "30.1.2"
+  }
+}

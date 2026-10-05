@@ -1,0 +1,1553 @@
+[
+  {
+    "id": "methode",
+    "name": "Méthode",
+    "emoji": "🧭",
+    "intro": "Avant d'attaquer les sujets, la seule compétence qui te servira toute ta vie : <b>apprendre à comprendre</b>. C'est ce qui te sépare de quelqu'un qui lit et oublie. Chaque leçon de cette appli suit le même fil — utilise-le partout.",
+    "lessons": [
+      {
+        "id": "methode-comprendre",
+        "title": "La méthode : comprendre, pas mémoriser",
+        "minutes": 4,
+        "blocks": [
+          {
+            "t": "clair",
+            "h": "En clair",
+            "c": "Comprendre = pouvoir expliquer la chose avec tes propres mots, à quelqu'un qui n'y connaît rien, sans recopier la définition. Si tu n'y arrives pas, tu ne l'as pas encore comprise."
+          },
+          {
+            "t": "analogie",
+            "h": "L'image dans la tête",
+            "c": "Lire une leçon, c'est comme regarder quelqu'un cuisiner à la télé : tu <i>reconnais</i> le plat, mais tu ne sais pas le refaire. Comprendre, c'est entrer en cuisine et refaire le plat toi-même — et rater une fois, deux fois, jusqu'à ce que ça marche sans la recette."
+          },
+          {
+            "t": "comment",
+            "h": "Comment ça marche vraiment (la technique de Feynman)",
+            "c": "4 étapes, à faire à chaque fois : <br>1. <b>Lis</b> le sujet une fois, normalement.<br>2. <b>Ferme tout</b> et écris/explique ce que tu as retenu avec des mots simples, comme si tu l'expliquais à ton petit frère.<br>3. <b>Repère le trou</b> : là où tu bloques, c'est exactement là que tu dois revenir relire.<br>4. <b>Répète</b> jusqu'à ce que ça coule. Plus tu simplifies, plus tu as compris."
+          },
+          {
+            "t": "exemple",
+            "h": "Un exemple concret",
+            "c": "Tu lis « une IP, c'est une adresse unique sur le réseau ». Mauvais signe si tu te contentes de la recopier. Bien : tu fermes la page et tu dis « l'IP, c'est l'adresse postale d'une machine — pour lui envoyer un paquet, j'ai besoin de son adresse, sinon le facteur ne sait pas où livrer ». Si tu peux dire ça, tu as compris."
+          },
+          {
+            "t": "pourquoi",
+            "h": "Pourquoi ça te sert",
+            "c": "Quand une IA t'écrira un script, tu pourras le LIRE, demander « pourquoi cette ligne ? », et corriger ce qui ne va pas au lieu de copier-coller à l'aveugle. C'est la différence entre utiliser l'IA et être utilisé par elle."
+          },
+          {
+            "t": "exo",
+            "h": "À toi de jouer",
+            "c": "Prends la dernière chose que tu as « apprise » (un cours, une vidéo). Ferme tout, et écris-la en 3 phrases avec tes mots. Le moment où tu bloques, c'est ton prochain point de révision. Note-le."
+          }
+        ]
+      },
+      {
+        "id": "methode-exercices",
+        "title": "Faire un exercice ≠ l'avoir compris",
+        "minutes": 3,
+        "blocks": [
+          {
+            "t": "clair",
+            "h": "En clair",
+            "c": "Refaire un exercice par cœur ne prouve rien. L'avoir compris, c'est savoir POURQUOI chaque étape est là, et savoir le refaire quand l'énoncé change."
+          },
+          {
+            "t": "analogie",
+            "h": "L'image dans la tête",
+            "c": "Réciter un exercice, c'est savoir que 7×8=56 par cœur. Le comprendre, c'est savoir que si on te demande 7×80, ça fait 560 — parce que tu sais ce que la multiplication VEUT dire, pas juste le résultat."
+          },
+          {
+            "t": "comment",
+            "h": "Comment ça marche",
+            "c": "Après chaque exercice, pose-toi ces 3 questions : <br>• <b>Qu'est-ce que j'ai fait ?</b> (les étapes)<br>• <b>Pourquoi dans cet ordre ?</b> (la logique)<br>• <b>Que se passerait-il si je changeais X ?</b> (le test). <br>Si la 3ᵉ te bloque, relis la leçon — c'est là qu'est la compréhension."
+          },
+          {
+            "t": "pourquoi",
+            "h": "Pourquoi ça te sert",
+            "c": "Au taf, on ne te donnera jamais le même cas qu'en cours. Le jour où un collègue te dit « le serveur ne répond plus », ce qui te sauvera, c'est d'avoir compris comment un serveur répond, pas d'avoir mémorisé un schéma."
+          },
+          {
+            "t": "exo",
+            "h": "À toi de jouer",
+            "c": "Reprends le dernier exercice de ton école. Change une seule valeur (un numéro, un mot). Est-ce que tu peux prédire le résultat AVANT de le lancer ? Si oui, tu as compris."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "tsrs",
+    "name": "TSRS · Ton diplôme",
+    "emoji": "🎓",
+    "intro": "Ton vrai parcours, c'est le <b>TSRS</b> (Technicien Système Réseau et Sécurité), un titre de niveau 6 reconnu par l'État. Ici, je te traduis ton référentiel et ta certification en mots simples : les 5 blocs à prouver, ton mémoire, ton jury et tes dates. C'est ton fil conducteur jusqu'au diplôme.",
+    "lessons": [
+      {
+        "id": "tsrs-diplome",
+        "title": "Ton diplôme TSRS : ça prouve quoi ?",
+        "minutes": 5,
+        "blocks": [
+          {
+            "t": "clair",
+            "h": "En clair",
+            "c": "Le TSRS est un diplôme reconnu par l'État, enregistré au <b>RNCP</b> (le Répertoire National des Certifications Professionnelles). C'est un titre de <b>niveau 6</b> : quand tu l'as, l'État reconnaît officiellement que tu sais faire le métier — pas juste que tu as suivi des cours."
+          },
+          {
+            "t": "analogie",
+            "h": "L'image dans la tête",
+            "c": "Il y a deux façons d'être « reconnu » en France. L'école te donne des notes et un niveau d'études (la reconnaissance <i>académique</i>). Le RNCP, lui, reconnaît que tu sais <i>faire le métier</i> (la reconnaissance <i>professionnelle</i>). Le TSRS coche les deux, mais c'est la 2ᵉ qui intéresse les entreprises : elle dit « ce diplôme = ce savoir-faire »."
+          },
+          {
+            "t": "comment",
+            "h": "Comment ça marche",
+            "c": "Pour garder un titre au RNCP, l'école doit prouver que <b>80 % des diplômés trouvent un emploi dans le métier visé</b>. C'est rassurant : le référentiel TSRS n'est pas une liste de cours théoriques, c'est la liste des choses que les entreprises vérifient vraiment qu'un technicien sait faire."
+          },
+          {
+            "t": "pourquoi",
+            "h": "Pourquoi ça te sert",
+            "c": "Quand tu bosses ton mémoire ou tes révisions, tu ne prépares pas « un examen » : tu prouves les 5 blocs de compétences. Comprendre ÇA, c'est comprendre exactement ce qu'on attend de toi. Tout ce qui est hors des 5 blocs = hors sujet."
+          },
+          {
+            "t": "exo",
+            "h": "À toi de jouer",
+            "c": "Avec tes mots : quelle différence entre « avoir suivi des cours » et « avoir un titre RNCP niveau 6 » ? Si tu arrives à l'expliquer à quelqu'un, tu as compris pourquoi ton alternance compte autant que tes cours."
+          }
+        ]
+      },
+      {
+        "id": "tsrs-blocs",
+        "title": "Les 5 blocs de compétences (le cœur)",
+        "minutes": 7,
+        "blocks": [
+          {
+            "t": "clair",
+            "h": "En clair",
+            "c": "Ton référentiel, c'est <b>5 blocs</b>. Chaque bloc = une famille de savoir-faire que tu dois prouver. Le jury te juge sur ces 5 blocs, rien d'autre."
+          },
+          {
+            "t": "analogie",
+            "h": "L'image dans la tête",
+            "c": "Imagine 5 tiroirs dans une boîte à outils de technicien. Le jury ouvre chaque tiroir et vérifie qu'il est plein. Ton travail (en entreprise + ton mémoire) remplit les tiroirs. Un tiroir vide = un bloc non validé."
+          },
+          {
+            "t": "comment",
+            "h": "Les 5 blocs, en mots simples",
+            "c": "<b>Bloc 1 — Déployer</b> : installer les machines, les logiciels, les connecter au réseau (poser l'infrastructure). <b>Bloc 2 — Administrer</b> : faire tourner les serveurs et le réseau au quotidien (comptes, sauvegardes, journaux). <b>Bloc 3 — Sécuriser</b> : protéger tout ça (le plus proche de ton but pentest). <b>Bloc 4 — Entretenir</b> : dépanner le matériel, mettre à jour, documenter. <b>Bloc 5 — Supporter</b> : aider les utilisateurs, rendre compte, travailler en équipe."
+          },
+          {
+            "t": "exemple",
+            "h": "Un exemple concret",
+            "c": "Au taf, tu résous un problème de mot de passe pour un collègue ? <b>Bloc 5</b> (support). Tu installes un nouveau serveur et tu le configures ? <b>Bloc 1 et 2</b>. Tu mets en place une sauvegarde automatique ? <b>Bloc 3</b>. Tu remplaces un disque défaillant ? <b>Bloc 4</b>. Presque tout ce que tu fais au quotidien remplit un tiroir."
+          },
+          {
+            "t": "pourquoi",
+            "h": "Pourquoi ça te sert",
+            "c": "C'est LA clé de ton mémoire : au lieu de raconter « ce que tu as fait », tu montres « ce que tu as fait remplit quel bloc ». Et ça t'évite le hors sujet : si une mission ne rentre dans aucun bloc, tu ne la détailles pas."
+          },
+          {
+            "t": "exo",
+            "h": "À toi de jouer",
+            "c": "Prends 3 choses que tu as faites cette semaine dans mon entreprise. Pour chacune, note le numéro du bloc (1 à 5). Si tu hésites entre deux, écris pourquoi — c'est exactement le genre de réflexion que le jury veut voir."
+          }
+        ]
+      },
+      {
+        "id": "tsrs-schema",
+        "title": "Lire un schéma réseau (ta compétence n°1)",
+        "minutes": 6,
+        "blocks": [
+          {
+            "t": "clair",
+            "h": "En clair",
+            "c": "En TSRS, on pense en <b>schémas</b> : un dessin qui montre qui est branché à qui, et par où passe l'information. Lire un schéma réseau, c'est suivre le chemin d'une donnée du départ à l'arrivée."
+          },
+          {
+            "t": "analogie",
+            "h": "L'image dans la tête",
+            "c": "Un schéma réseau, c'est le plan d'une ville avec ses routes. Un <b>poste</b> = une maison. Un <b>switch</b> = le carrefour du quartier. Un <b>routeur</b> = la porte de la ville. <b>Internet</b> = le reste du monde. Pour envoyer un message de ta maison vers une autre ville, tu passes par le carrefour, puis la porte, puis le monde."
+          },
+          {
+            "t": "schema",
+            "h": "Le schéma : un petit réseau d'entreprise",
+            "c": "Lis de gauche à droite, en suivant les flèches.",
+            "boxes": [
+              {
+                "l": "Poste A",
+                "s": "ton ordinateur"
+              },
+              {
+                "l": "Switch",
+                "s": "le carrefour"
+              },
+              {
+                "l": "Routeur",
+                "s": "la porte"
+              },
+              {
+                "l": "Internet",
+                "s": "le monde",
+                "hot": true
+              },
+              {
+                "l": "Serveur",
+                "s": "le site web"
+              }
+            ],
+            "note": "Chemin : ton PC → le switch (qui relie tous les postes du bureau entre eux) → le routeur (qui décide où sortir) → Internet → le serveur. Chaque boîte a un rôle précis ; retire le routeur, et plus rien ne sort du bureau."
+          },
+          {
+            "t": "pourquoi",
+            "h": "Pourquoi ça te sert",
+            "c": "Ton mémoire contient une <b>cartographie du SI</b> de ton entreprise (obligatoire, partie 2). Et en pentest, tout commence par un schéma : tu ne peux pas attaquer ce que tu n'as pas cartographié. Lire et dessiner un schéma, c'est 50 % du métier."
+          },
+          {
+            "t": "exo",
+            "h": "À toi de jouer",
+            "c": "Refais ce schéma sur papier, SANS regarder. Puis ajoute une <b>imprimante</b> branchée au switch. Question : si le routeur tombe en panne, le Poste A peut-il encore imprimer ? (Réponse : oui, car l'imprimante passe par le switch, pas par le routeur.)"
+          }
+        ]
+      },
+      {
+        "id": "tsrs-memoire",
+        "title": "Ton mémoire : la preuve, pas un roman",
+        "minutes": 6,
+        "blocks": [
+          {
+            "t": "clair",
+            "h": "En clair",
+            "c": "Le mémoire (~60 pages) est ta <b>preuve écrite</b> : il montre que tu maîtrises les 5 blocs. Ce n'est PAS un récit de ce que tu as fait au jour le jour — c'est une démonstration de ce que tu as <i>compris</i> du métier."
+          },
+          {
+            "t": "analogie",
+            "h": "L'image dans la tête",
+            "c": "Un bon mémoire, c'est comme un dossier de candidature : tu ne racontes pas « le 12 mars j'ai réparé un écran » (ça, c'est le journal). Tu dis « j'ai compris comment diagnostiquer une panne, voici ma méthode, et voici la preuve sur ce cas ». Le jury veut voir ta <i>tête</i>, pas ton agenda."
+          },
+          {
+            "t": "comment",
+            "h": "Les 5 parties + la méthode",
+            "c": "<b>1. L'entreprise</b> (~5 p) : qui elle est, ton poste, ta fiche de poste, un <b>schéma du SI</b>. <b>2. Les missions</b> (~25-30 p) : tes missions détaillées, découpées en « but → réalisation → bilan ». <b>3. Le projet</b> (~15-20 p) : un projet mené de A à Z (objectif, planning, moyens, bilan). <b>4. La conclusion</b> : ce que tu as appris + tes perspectives. <b>5. Annexes/glossaire</b>. Règle d'or : <b>QQOQCP</b> (Qui, Quoi, Où, Quand, Comment, Pourquoi) partout."
+          },
+          {
+            "t": "exemple",
+            "h": "Un exemple concret",
+            "c": "Au lieu d'écrire « j'ai aidé à la migration des postes », tu écris : « <b>Objectif</b> : migrer 50 postes vers le nouveau système. <b>Réalisation</b> : j'ai préparé l'image, testé sur 2 postes pilotes, puis déployé par lots. <b>Bilan</b> : 48/50 réussis du premier coup, j'ai appris que tester en pilote évite les surprises. » Tu vois la différence ? C'est ça, « prouver »."
+          },
+          {
+            "t": "pourquoi",
+            "h": "Pourquoi ça te sert",
+            "c": "Le mémoire se remplit petit à petit — <b>pas</b> en une nuit. Le PDF le dit noir sur blanc : rédige au fur et à mesure, dès maintenant. Et attention au plagiat : 5 ans d'interdiction de jury. Cite toujours tes sources."
+          },
+          {
+            "t": "exo",
+            "h": "À toi de jouer",
+            "c": "Prends UNE mission que tu fais en ce moment. Écris 3 lignes sous la forme « Objectif / Réalisation / Bilan ». Si tu n'arrives pas à écrire le « bilan » (ce que tu as appris), c'est que tu ne l'as pas encore compris — demande à ton tuteur."
+          }
+        ]
+      },
+      {
+        "id": "tsrs-jury",
+        "title": "Le jury + ton rétro-planning (tes dates)",
+        "minutes": 5,
+        "blocks": [
+          {
+            "t": "clair",
+            "h": "En clair",
+            "c": "Tu finis par une soutenance de <b>40 minutes</b> devant un jury (2 pros + 1 représentant de l'école), avec une présentation d'environ 15 slides. Le but est simple : <b>convaincre</b> que tu maîtrises le métier."
+          },
+          {
+            "t": "analogie",
+            "h": "L'image dans la tête",
+            "c": "Le jury, c'est 3 personnes qui n'ont pas vécu ta journée de travail : ils ont lu ton mémoire et veulent vérifier que c'est bien TOI qui as compris. La soutenance, c'est toi qui leur montres ta tête et ta logique en 20 minutes."
+          },
+          {
+            "t": "comment",
+            "h": "Tes dates (à garder sous les yeux)",
+            "c": "<b>28/05/2027</b> — 1ʳᵉ version du mémoire à envoyer (obligatoire). <b>02/07/2027</b> — 2ᵉ présentation si « no go ». <b>23/08/2027</b> — dépôt final validé. <b>27/08/2027</b> — jury. Si tu ne déposes pas ou si tu échoues, tu ne passes pas dans le cursus supérieur — même avec une entreprise."
+          },
+          {
+            "t": "pourquoi",
+            "h": "Pourquoi ça te sert",
+            "c": "Avoir les dates en tête change tout : 10 pages par mois, c'est jouable. 60 pages en août, c'est impossible. On vise le « 10 pages par mois » du PDF, et on avance sans pression."
+          },
+          {
+            "t": "exo",
+            "h": "À toi de jouer",
+            "c": "Note ces 4 dates quelque part où tu les vois (téléphone, mur). Puis réponds : si tu fais 10 pages par mois, combien de pages devrais-tu avoir finies dans 3 mois ? C'est ton objectif à court terme."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "parcours",
+    "name": "Fondations",
+    "emoji": "🧩",
+    "intro": "Ton alternance (systèmes, réseaux, sécurité) est ton terrain d'entraînement. Ici, on relie ce que tu vois en cours et au taf aux fondations que tu dois vraiment maîtriser.",
+    "lessons": [
+      {
+        "id": "parcours-piliers",
+        "title": "Tes 3 piliers : système, réseau, sécurité",
+        "minutes": 4,
+        "blocks": [
+          {
+            "t": "clair",
+            "h": "En clair",
+            "c": "Ton métier se résume à 3 couches qui s'empilent : <b>le système</b> (la machine), <b>le réseau</b> (comment les machines se parlent), <b>la sécurité</b> (comment on protège les deux). Tout ce que tu apprends se range dans l'une de ces 3 boîtes."
+          },
+          {
+            "t": "analogie",
+            "h": "L'image dans la tête",
+            "c": "Une entreprise, c'est comme un immeuble : <b>le système</b>, ce sont les appartements (chaque machine avec ses pièces = ses logiciels). <b>Le réseau</b>, ce sont les couloirs et l'ascenseur (comment on circule d'un appart à l'autre). <b>La sécurité</b>, ce sont les serrures, les badges et les caméras (qui a le droit d'entrer où)."
+          },
+          {
+            "t": "comment",
+            "h": "Comment ça s'articule",
+            "c": "Tu ne peux pas protéger (sécurité) ce que tu ne comprends pas (système), ni défendre des échanges (réseau) dont tu ignores le chemin. C'est pour ça qu'on commence TOUJOURS par les fondations système et réseau avant d'attaquer le pentest : un pentester est d'abord un bon technicien."
+          },
+          {
+            "t": "pourquoi",
+            "h": "Pourquoi ça te sert",
+            "c": "Quand tu viseras pentester, tu exploiteras des failles dans ces 3 couches. Une faille = un endroit où le système, le réseau ou la sécurité se comporte comme on ne l'attendait pas. Si tu comprends le comportement normal, tu repères l'anormal."
+          },
+          {
+            "t": "exo",
+            "h": "À toi de jouer",
+            "c": "Dans ta boîte (mon entreprise), note cette semaine 3 choses que tu as vues au travail, et classe chacune dans une boîte : système, réseau ou sécurité. Si tu hésites, c'est normal — c'est le début de la compréhension."
+          }
+        ]
+      },
+      {
+        "id": "parcours-reseau",
+        "title": "Le réseau : comment deux machines se parlent",
+        "minutes": 6,
+        "blocks": [
+          {
+            "t": "clair",
+            "h": "En clair",
+            "c": "Pour qu'une machine envoie une info à une autre, il lui faut : une <b>adresse IP</b> (l'adresse de la machine), un <b>port</b> (la porte du logiciel à l'intérieur), et un <b>paquet</b> (le colis qui contient l'info)."
+          },
+          {
+            "t": "analogie",
+            "h": "L'image dans la tête",
+            "c": "Envoyer un message sur le réseau = envoyer une lettre. <b>L'adresse IP</b> = l'adresse postale de l'immeuble. <b>Le port</b> = le numéro d'appartement (le site web habite au port 80/443, les emails au 25, etc.). <b>Le paquet</b> = l'enveloppe avec ton message dedans."
+          },
+          {
+            "t": "comment",
+            "h": "Comment ça marche vraiment",
+            "c": "Ta machine écrit un paquet, colle l'adresse IP du destinataire et le bon port, puis le lâche sur le réseau. Des routeurs (= des centres de tri) le font avancer d'étape en étape jusqu'à l'adresse. À l'arrivée, la machine ouvre le paquet et le donne au logiciel qui écoute sur ce port."
+          },
+          {
+            "t": "exemple",
+            "h": "Un exemple concret",
+            "c": "Tu ouvres un site web. Ta machine envoie un paquet vers l'IP du serveur, sur le port 443 (le port du web sécurisé). Le serveur répond en renvoyant la page, découpée en dizaines de petits paquets. Ton navigateur les réassemble et affiche le site. Ça s'est passé en moins d'une seconde."
+          },
+          {
+            "t": "pourquoi",
+            "h": "Pourquoi ça te sert",
+            "c": "C'est LA brique du pentest : scanner un réseau, c'est demander à une machine « quels ports sont ouverts ? », c'est-à-dire « quelles portes de ton immeuble ne sont pas verrouillées ? ». Une porte ouverte = un logiciel qui écoute = une cible possible."
+          },
+          {
+            "t": "exo",
+            "h": "À toi de jouer",
+            "c": "Sur ton Mac, ouvre un terminal et tape : <span class='kbd'>ping google.com</span> puis Entrée (Ctrl+C pour arrêter). Tu viens d'envoyer un petit paquet et de recevoir une réponse. Tu comprends maintenant ce que ça veut dire : ta machine a trouvé l'adresse et reçu la réponse."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "pentest",
+    "name": "Cyber / Pentest",
+    "emoji": "🛡️",
+    "intro": "Ta cible : devenir pentester (testeur d'intrusion). Ici on va du zéro jusqu'à la vraie méthode, en comprenant chaque brique. Aucun outil de hacking ici avant d'avoir compris les fondations.",
+    "lessons": [
+      {
+        "id": "pentest-quoi",
+        "title": "C'est quoi un pentest ?",
+        "minutes": 4,
+        "blocks": [
+          {
+            "t": "clair",
+            "h": "En clair",
+            "c": "Un pentest = une entreprise te PAYE pour attaquer ses systèmes (avec sa permission écrite) et lui dire où elle est fragile, AVANT que les vrais pirates ne le trouvent."
+          },
+          {
+            "t": "analogie",
+            "h": "L'image dans la tête",
+            "c": "Un propriétaire demande à un serrurier de « cambrioler » sa propre maison, légalement. Le serrurier essaie toutes les portes et fenêtres, note celles qui s'ouvrent, et remet un rapport : « voilà comment on aurait pu entrer, et voilà comment réparer »."
+          },
+          {
+            "t": "comment",
+            "h": "Comment ça marche vraiment",
+            "c": "Un pentest suit une méthode, jamais de l'improvisation : <br>1. <b>Cadrage</b> — on signe un contrat qui dit ce qu'on a le droit de tester (et ce qu'on n'a PAS le droit).<br>2. <b>Reconnaissance</b> — on cartographie la cible.<br>3. <b>Exploitation</b> — on tente d'entrer par les failles trouvées.<br>4. <b>Rapport</b> — on livre les failles par gravité + comment corriger. <br>C'est la partie rapport qui est payée, pas le piratage."
+          },
+          {
+            "t": "pourquoi",
+            "h": "Pourquoi ça te sert",
+            "c": "La différence entre un hacker et un criminel, c'est UNIQUEMENT l'autorisation écrite. Sans elle, la même action est illégale et peut te coûter ta carrière, voire plus. Le pentester est le « médecin » de la sécurité : il teste pour protéger."
+          },
+          {
+            "t": "exo",
+            "h": "À toi de jouer",
+            "c": "Question de compréhension (réponds avec tes mots) : pourquoi une entreprise paie-t-elle quelqu'un pour l'attaquer, au lieu de simplement corriger ses bugs ? Si tu sais répondre, tu as compris l'idée du pentest."
+          }
+        ]
+      },
+      {
+        "id": "pentest-methode",
+        "title": "La méthode d'un pentester, étape par étape",
+        "minutes": 6,
+        "blocks": [
+          {
+            "t": "clair",
+            "h": "En clair",
+            "c": "Un pentester ne « pirate » pas au hasard. Il suit un cycle : <b>reconnaissance → scan → exploitation → élévation → rapport</b>. Chaque étape nourrit la suivante."
+          },
+          {
+            "t": "analogie",
+            "h": "L'image dans la tête",
+            "c": "C'est une enquête policière, pas un braquage. Avant d'entrer, on observe la cible (recon), on repère les entrées (scan), on essaie les serrures faibles (exploit), puis on grimpe pour atteindre le coffre (élévation). À la fin, on rend un rapport, pas un butin."
+          },
+          {
+            "t": "comment",
+            "h": "Les étapes en détail",
+            "c": "<b>1. Recon</b> : on récolte tout ce qui est public (domaines, emails, noms, technologies). <b>2. Scan</b> : on sonde les machines — quels ports ouverts, quels services, quelles versions. <b>3. Exploitation</b> : on attaque une faille identifiée (version vulnérable, mot de passe faible, mauvaise config). <b>4. Élévation</b> : une fois dedans, on essaie d'obtenir plus de droits (utilisateur → admin). <b>5. Rapport</b> : on documente chaque faille + la preuve + le correctif."
+          },
+          {
+            "t": "exemple",
+            "h": "Un exemple concret",
+            "c": "Scan : un serveur expose un service web avec une version vieille de 3 ans. On vérifie si cette version a une faille connue (CVE). Si oui, on la teste en environnement autorisé. On documente : « votre serveur web tourne une version vulnérable à CVE-XXXX, voici la preuve et la mise à jour à appliquer »."
+          },
+          {
+            "t": "pourquoi",
+            "h": "Pourquoi ça te sert",
+            "c": "Cette méthode, c'est ton futur métier. Et surtout : 80 % du travail est dans la recon et le rapport (la rigueur), pas dans l'exploit spectaculaire. Les débutants veulent « hacker » ; les pros cartographient."
+          },
+          {
+            "t": "exo",
+            "h": "À toi de jouer",
+            "c": "Avec tes mots : qu'est-ce qu'on apprend à l'étape « recon » qu'on ne savait pas avant ? Et pourquoi c'est la première étape ? (Indice : on n'attaque pas une maison sans savoir combien de portes elle a.)"
+          }
+        ]
+      },
+      {
+        "id": "pentest-web",
+        "title": "Le web pour pentester : HTTP, la langue des sites",
+        "minutes": 6,
+        "blocks": [
+          {
+            "t": "clair",
+            "h": "En clair",
+            "c": "Quand tu ouvres un site, ton navigateur parle au serveur dans une langue codifiée : <b>HTTP</b>. Une requête = une demande, une réponse = un code + du contenu. La plupart des failles web, c'est quelqu'un qui a mal géré ces requêtes."
+          },
+          {
+            "t": "analogie",
+            "h": "L'image dans la tête",
+            "c": "HTTP, c'est un dialogue de restaurant. Toi : « je voudrais la page /accueil, s'il te plaît » (requête). Le serveur : « voilà, code 200 OK » (réponse) ou « désolé, ça n'existe pas, 404 » ou « pas le droit, 403 »."
+          },
+          {
+            "t": "comment",
+            "h": "Les codes qui comptent",
+            "c": "<b>200</b> = OK. <b>301/302</b> = redirection. <b>403</b> = interdit. <b>404</b> = introuvable. <b>500</b> = erreur du serveur. Chaque réponse raconte quelque chose : un 500 = le serveur a planté sur ta requête, c'est une piste. Les failles web classiques (injection SQL, XSS) consistent à envoyer une requête malicieuse que le serveur interprète mal."
+          },
+          {
+            "t": "exemple",
+            "h": "Un exemple concret",
+            "c": "Un site a une page <code>/profil?id=1</code>. Le serveur fait « montre-moi le profil numéro 1 ». Un attaquant teste <code>/profil?id=2</code> — s'il voit le profil de quelqu'un d'autre, c'est une faille (IDOR) : le site n'a pas vérifié qu'on avait le droit de voir ce profil."
+          },
+          {
+            "t": "pourquoi",
+            "h": "Pourquoi ça te sert",
+            "c": "Le web est le terrain d'entrée n°1 des pentesters débutants : c'est là que tu peux pratiquer légalement (sur des plateformes dédiées). Comprendre le dialogue HTTP, c'est comprendre 80 % des failles web."
+          },
+          {
+            "t": "exo",
+            "h": "À toi de jouer",
+            "c": "Dans ton navigateur, ouvre les outils développeur (F12 ou Cmd+Option+I), onglet « Réseau » (Network), puis recharge une page. Regarde les requêtes défiler : tu vois chaque demande et son code. Repère au moins un 200 et un 404. C'est HTTP, en vrai."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bloc1",
+    "name": "Bloc 1 · Déployer",
+    "emoji": "🧱",
+    "intro": "Ton <b>Bloc 1 : déployer</b>, c'est poser l'infrastructure — installer les machines, les logiciels, les connecter au réseau. C'est la première brique : avant de sécuriser (Bloc 3) ou de dépanner (Bloc 4), il faut que la machine soit en place. Et c'est la base du pentest : pour attaquer, tu dois d'abord savoir comment on monte un système.",
+    "lessons": [
+      {
+        "id": "bloc1-quoi",
+        "title": "Déployer, c'est quoi exactement ?",
+        "minutes": 4,
+        "blocks": [
+          {
+            "t": "clair",
+            "h": "En clair",
+            "c": "Déployer = <b>installer + configurer + connecter</b>, puis vérifier. Poser une machine prête à servir. Ce n'est pas juste « brancher » : c'est installer un système, le paramétrer, le relier au réseau, et prouver qu'il marche."
+          },
+          {
+            "t": "analogie",
+            "h": "L'image dans la tête",
+            "c": "Monter un appartement avant d'emménager : installer les meubles (le système), brancher l'eau et l'électricité (le réseau), vérifier que tout fonctionne (les tests). Un appartement meublé mais sans électricité ne « déploie » rien."
+          },
+          {
+            "t": "comment",
+            "h": "Comment ça marche vraiment",
+            "c": "3 étapes : <b>1. Installer</b> — mettre l'OS sur le disque (clé USB, ou une <b>image</b> prête à copier). <b>2. Configurer</b> — nom de la machine, comptes, adresse réseau, logiciels. <b>3. Connecter</b> — câble ou wifi, puis tester. La notion clé : l'<b>image</b> = une copie prête à dupliquer. Cloner 50 postes identiques = quelques minutes au lieu de 50 installations à la main."
+          },
+          {
+            "t": "exemple",
+            "h": "Un exemple concret",
+            "c": "Dans mon entreprise, un nouveau collègue arrive → tu prépares un poste (image), tu le configures (compte, adresse, outils), tu le branches, tu vérifies qu'il accède au réseau et aux applications. C'est un déploiement, de bout en bout."
+          },
+          {
+            "t": "pourquoi",
+            "h": "Pourquoi ça te sert",
+            "c": "C'est le geste de base du technicien, le Bloc 1 du référentiel. Et en pentest, la phase « recon » c'est l'inverse exact : comprendre comment la cible a été déployée pour repérer où ça a été mal fait."
+          },
+          {
+            "t": "exo",
+            "h": "À toi de jouer",
+            "c": "Avec tes mots : quelle différence entre « installer » et « déployer » ? (Indice : déployer inclut configurer + connecter + vérifier, pas juste copier des fichiers.)"
+          }
+        ]
+      },
+      {
+        "id": "bloc1-ip",
+        "title": "L'adresse IP, le masque et la passerelle",
+        "minutes": 6,
+        "blocks": [
+          {
+            "t": "clair",
+            "h": "En clair",
+            "c": "Pour qu'une machine parle sur le réseau, il lui faut 3 choses : une <b>adresse IP</b> (son identité), un <b>masque</b> (pour savoir qui est « à côté » d'elle), et une <b>passerelle</b> (la porte de sortie vers les autres réseaux)."
+          },
+          {
+            "t": "analogie",
+            "h": "L'image dans la tête",
+            "c": "L'<b>IP</b> = ton adresse postale. Le <b>masque</b> = le code postal qui te dit si ton voisin est dans le même quartier. La <b>passerelle</b> = la sortie du quartier vers la grande route."
+          },
+          {
+            "t": "comment",
+            "h": "Comment ça marche",
+            "c": "L'adresse IP = 4 nombres (ex : 192.168.1.10). Le masque (ex : 255.255.255.0) découpe l'adresse en 2 : la partie <b>réseau</b> (le quartier) et la partie <b>machine</b> (la maison). Deux machines dans le même réseau se parlent directement ; sinon, elles passent par la passerelle."
+          },
+          {
+            "t": "schema",
+            "h": "Le chemin d'un paquet",
+            "c": "Même quartier = direct. Autre quartier = via la passerelle.",
+            "boxes": [
+              {
+                "l": "Ton PC",
+                "s": "192.168.1.10"
+              },
+              {
+                "l": "Passerelle",
+                "s": "192.168.1.1",
+                "hot": true
+              },
+              {
+                "l": "Autres réseaux",
+                "s": "Internet"
+              }
+            ],
+            "note": "Si la machine visée est dans le même réseau (même partie « réseau » de l'adresse), on y va directement. Sinon, le paquet sort par la passerelle (souvent la box ou le routeur, en 192.168.1.1)."
+          },
+          {
+            "t": "pourquoi",
+            "h": "Pourquoi ça te sert",
+            "c": "C'est LA brique du réseau, indispensable pour tout le TSRS et pour le pentest (scanner = cartographier les adresses d'un réseau). Si tu confonds IP et passerelle, tu ne peux ni configurer ni dépanner un réseau."
+          },
+          {
+            "t": "exo",
+            "h": "À toi de jouer",
+            "c": "Question : ton PC est en 192.168.1.10 / 255.255.255.0, et une machine est en 192.168.2.10. Est-elle « à côté » de toi ? (Réponse : non — la 3ᵉ partie change, donc réseau différent → il faut passer par la passerelle.)"
+          }
+        ]
+      },
+      {
+        "id": "bloc1-dhcp-dns",
+        "title": "DHCP et DNS : les deux annuaires du réseau",
+        "minutes": 6,
+        "blocks": [
+          {
+            "t": "clair",
+            "h": "En clair",
+            "c": "Le <b>DHCP</b> t'attribue une adresse IP automatiquement. Le <b>DNS</b> traduit les noms (google.com) en adresses IP. Sans eux, tu configurerais tout à la main et retiendrais des suites de chiffres."
+          },
+          {
+            "t": "analogie",
+            "h": "L'image dans la tête",
+            "c": "Le <b>DHCP</b> = la mairie qui te donne une adresse quand tu arrives en ville. Le <b>DNS</b> = l'annuaire téléphonique : tu cherches « google.com », il te répond « c'est le 142.250.1.10 »."
+          },
+          {
+            "t": "comment",
+            "h": "Comment ça marche",
+            "c": "Au démarrage, ta machine demande « y a-t-il un serveur DHCP ? ». Le serveur lui répond une IP libre + le masque + la passerelle + le DNS. Quand tu tapes google.com, ta machine demande au DNS « quelle est son adresse ? », reçoit l'IP, et s'y connecte. Le DNS fait ce travail à chaque site, sans que tu t'en rendes compte."
+          },
+          {
+            "t": "schema",
+            "h": "Les deux services en action",
+            "boxes": [
+              {
+                "l": "Ton PC",
+                "s": "« donne-moi une IP »"
+              },
+              {
+                "l": "Serveur DHCP",
+                "s": "attribue l'IP"
+              },
+              {
+                "l": "Serveur DNS",
+                "s": "nom → IP"
+              },
+              {
+                "l": "Site web",
+                "s": "le serveur visé"
+              }
+            ],
+            "note": "1) Le PC demande une IP au DHCP. 2) Pour ouvrir un site, le PC demande son adresse au DNS. 3) Il se connecte au serveur visé."
+          },
+          {
+            "t": "pourquoi",
+            "h": "Pourquoi ça te sert",
+            "c": "DHCP et DNS sont partout dans ton quotidien ET dans le pentest : un DNS mal configuré peut être usurpé, et comprendre le DHCP = comprendre comment une machine apparaît sur le réseau."
+          },
+          {
+            "t": "exo",
+            "h": "À toi de jouer",
+            "c": "Avec tes mots : pourquoi le DHCP est-il plus pratique que configurer chaque IP à la main ? Et que se passe-t-il si le serveur DNS tombe en panne ? (Indice : tu ne pourras plus ouvrir un site par son nom, mais tu pourrais encore le joindre par son IP.)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bloc2",
+    "name": "Bloc 2 · Administrer",
+    "emoji": "🗂️",
+    "intro": "Ton <b>Bloc 2 : administrer</b>, c'est faire tourner le système et le réseau au quotidien — gérer les comptes, les droits, les journaux. Déployer (Bloc 1) pose la machine ; administrer la garde vivante. C'est le terrain de jeu du pentester : la plupart des failles viennent d'une mauvaise administration (un compte de trop, un droit trop large, un journal non surveillé).",
+    "lessons": [
+      {
+        "id": "bloc2-quoi",
+        "title": "Administrer un système au quotidien",
+        "minutes": 4,
+        "blocks": [
+          {
+            "t": "clair",
+            "h": "En clair",
+            "c": "Administrer = gérer les <b>comptes</b> (qui peut entrer), les <b>droits</b> (ce qu'ils peuvent faire), et les <b>journaux</b> (ce qui s'est passé). Le tout, la plupart du temps, depuis la ligne de commande."
+          },
+          {
+            "t": "analogie",
+            "h": "L'image dans la tête",
+            "c": "Le gestionnaire d'un immeuble : il crée les badges (les comptes), décide qui ouvre quelles portes (les droits), et consulte le registre des entrées (les journaux) pour savoir qui est passé."
+          },
+          {
+            "t": "comment",
+            "h": "Les 3 piliers",
+            "c": "<b>1. Comptes</b> — créer, modifier, désactiver les accès. <b>2. Droits</b> — définir qui peut lire/modifier/exécuter quoi (principe du moindre privilège). <b>3. Journaux</b> — enregistrer les événements pour diagnostiquer et auditer. La ligne de commande (le terminal) est l'outil n°1 pour ces trois tâches."
+          },
+          {
+            "t": "exemple",
+            "h": "Un exemple concret",
+            "c": "Un stagiaire part → tu désactives son compte immédiatement. Un collègue a besoin d'un dossier → tu lui donnes le droit précis, pas « admin ». Un serveur a planté → tu ouvres les journaux pour voir ce qui s'est passé juste avant."
+          },
+          {
+            "t": "pourquoi",
+            "h": "Pourquoi ça te sert",
+            "c": "C'est le cœur du métier TSRS (Bloc 2) et la source n°1 des failles : un compte non désactivé, un droit trop large, un journal non surveillé. Le pentester cherche exactement ces trous."
+          },
+          {
+            "t": "exo",
+            "h": "À toi de jouer",
+            "c": "Imagine qu'un collègue quitte la boîte demain. Liste 3 actions d'administration que tu ferais (compte, droits, autre chose). Écris-les avec tes mots."
+          }
+        ]
+      },
+      {
+        "id": "bloc2-droits",
+        "title": "Les comptes, les groupes et les droits",
+        "minutes": 6,
+        "blocks": [
+          {
+            "t": "clair",
+            "h": "En clair",
+            "c": "Un <b>compte</b> = une identité. Un <b>groupe</b> = une étiquette pour gérer plusieurs comptes d'un coup. Un <b>droit</b> = ce que ce compte a le droit de faire (lire, écrire, exécuter)."
+          },
+          {
+            "t": "analogie",
+            "h": "L'image dans la tête",
+            "c": "Le compte = une personne. Le groupe = son équipe (toute l'équipe accède à la même salle). Les droits = les portes qu'on lui ouvre. Plutôt que d'ouvrir 30 portes une par une, tu ouvres les portes « à toute l'équipe »."
+          },
+          {
+            "t": "comment",
+            "h": "Le principe d'or : le moindre privilège",
+            "c": "Ne donne à chacun QUE ce dont il a besoin, rien de plus. Un compte « admin » partout = si un compte est piraté, le pirate a tout. On préfère des comptes standards + des droits ciblés. En Linux, chaque fichier a un propriétaire et des droits lecture / écriture / exécution."
+          },
+          {
+            "t": "exemple",
+            "h": "Un exemple concret",
+            "c": "Un utilisateur n'a besoin que de lire un rapport → droit « lecture seule », pas « modification ». Un compte de service (un programme) n'a besoin d'accéder qu'à SA base de données, pas à tout le serveur."
+          },
+          {
+            "t": "pourquoi",
+            "h": "Pourquoi ça te sert",
+            "c": "C'est la base de la sécurité (relié au Bloc 3). Et c'est exactement ce qu'un pentester cherche à « escalader » : passer d'un compte standard à un compte admin. Des droits bien appliqués = l'attaque s'arrête net."
+          },
+          {
+            "t": "exo",
+            "h": "À toi de jouer",
+            "c": "Avec tes mots : pourquoi « donner admin à tout le monde » est une mauvaise idée ? Donne un exemple concret de ce qui pourrait mal tourner."
+          }
+        ]
+      },
+      {
+        "id": "bloc2-logs",
+        "title": "Les journaux (logs) : lire ce qui se passe",
+        "minutes": 6,
+        "blocks": [
+          {
+            "t": "clair",
+            "h": "En clair",
+            "c": "Un <b>journal</b> (log) = un fichier où le système note tout ce qui se passe, avec l'heure. Lire les logs = reconstituer ce qui s'est passé après coup. C'est la preuve, pas le souvenir."
+          },
+          {
+            "t": "analogie",
+            "h": "L'image dans la tête",
+            "c": "La boîte noire d'un avion, ou le carnet d'entrées d'un immeuble : si quelque chose arrive, tu relis le carnet pour savoir qui, quoi, quand."
+          },
+          {
+            "t": "comment",
+            "h": "Comment ça marche",
+            "c": "Chaque événement = une ligne avec date/heure + qui + quoi + résultat. Les logs sont partout : connexions (qui s'est connecté), erreurs, accès aux fichiers, arrêts/démarrages. On les lit avec des commandes pour filtrer (chercher un mot, suivre en direct)."
+          },
+          {
+            "t": "exemple",
+            "h": "Un exemple concret",
+            "c": "« Le serveur a redémarré tout seul cette nuit » → tu ouvres les logs, tu vois une ligne à 02h14 « arrêt demandé par tel compte ». Tu sais qui/quoi/quand, sans avoir été là. C'est la base de tout diagnostic (Bloc 3)."
+          },
+          {
+            "t": "pourquoi",
+            "h": "Pourquoi ça te sert",
+            "c": "Les logs sont la colonne vertébrale du diagnostic ET de la sécurité : un pirate laisse des traces dans les logs, c'est comme ça qu'on le détecte. Le Bloc 2 demande explicitement de « gérer les journaux ». Et en pentest, effacer ses traces = effacer les logs."
+          },
+          {
+            "t": "exo",
+            "h": "À toi de jouer",
+            "c": "Avec tes mots : pourquoi les logs sont-ils « la preuve » et pas « le souvenir » ? (Indice : un souvenir se déforme, un log note l'heure exacte et les faits.)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bloc3",
+    "name": "Bloc 3 · Sécuriser",
+    "emoji": "🔐",
+    "intro": "C'est ton <b>Bloc 3 du référentiel TSRS</b>, et le plus proche de ton but pentest. Sécuriser = protéger un système. Pour l'attaquer plus tard, tu dois d'abord comprendre comment on le défend. Chaque leçon se termine par « ce que le pentester attaque ».",
+    "lessons": [
+      {
+        "id": "bloc3-cia",
+        "title": "Sécuriser = protéger 3 choses (la triade CIA)",
+        "minutes": 5,
+        "blocks": [
+          {
+            "t": "clair",
+            "h": "En clair",
+            "c": "Sécuriser, c'est garantir <b>3 propriétés</b> en même temps : la <b>Confidentialité</b> (seuls les autorisés lisent l'info), l'<b>Intégrité</b> (personne ne la modifie en douce), et la <b>Disponibilité</b> (le service répond quand on en a besoin). En anglais on appelle ça la triade CIA."
+          },
+          {
+            "t": "analogie",
+            "h": "L'image dans la tête",
+            "c": "Pense à ta maison. <b>Confidentialité</b> = seuls ceux qui ont la clé entrent. <b>Intégrité</b> = personne ne change tes meubles en ton absence. <b>Disponibilité</b> = la porte s'ouvre quand TOI tu rentres (si un voleur te bloque l'entrée, ta maison est « disponible » pour lui, plus pour toi)."
+          },
+          {
+            "t": "schema",
+            "h": "Les 3 piliers à protéger",
+            "c": "Chaque action de sécurité protège l'un de ces 3 piliers.",
+            "arrows": false,
+            "boxes": [
+              {
+                "l": "Confidentialité",
+                "s": "seuls les autorisés lisent"
+              },
+              {
+                "l": "Intégrité",
+                "s": "personne ne modifie"
+              },
+              {
+                "l": "Disponibilité",
+                "s": "le service répond"
+              }
+            ],
+            "note": "Une attaque vise TOUJOURS l'un des 3 : voler tes données (confidentialité), les modifier (intégrité), ou rendre le service inaccessible (disponibilité)."
+          },
+          {
+            "t": "exemple",
+            "h": "Un exemple concret",
+            "c": "Un <b>mot de passe</b> protège la confidentialité. Une <b>empreinte de contrôle</b> (checksum) garantit l'intégrité — si le fichier change, l'empreinte change. Une <b>sauvegarde + un onduleur</b> protègent la disponibilité : même après une panne, le service repart."
+          },
+          {
+            "t": "pourquoi",
+            "h": "Pourquoi ça te sert",
+            "c": "Tout le Bloc 3 tourne autour de cette triade, et c'est la boussole du pentest : quand tu attaques, tu te demandes « lequel des 3 je casse ? ». Un ransomware casse la disponibilité (et la confidentialité s'il exfiltre). Un accès non autorisé casse la confidentialité."
+          },
+          {
+            "t": "exo",
+            "h": "À toi de jouer",
+            "c": "Pour chaque situation, dis quel pilier est attaqué : (a) quelqu'un lit tes emails, (b) quelqu'un change le montant sur ta facture, (c) ton site est inaccessible toute la journée. Réponds avec tes mots — c'est le premier réflexe d'un futur pentester."
+          }
+        ]
+      },
+      {
+        "id": "bloc3-sauvegarde",
+        "title": "La sauvegarde + la restauration (règle 3-2-1)",
+        "minutes": 6,
+        "blocks": [
+          {
+            "t": "clair",
+            "h": "En clair",
+            "c": "Une sauvegarde ne vaut rien tant que tu n'as pas <b>prouvé</b> que tu sais la restaurer. Copier des données ne suffit pas : le vrai test, c'est de les récupérer après une panne."
+          },
+          {
+            "t": "analogie",
+            "h": "L'image dans la tête",
+            "c": "Copier tes clés de maison en 10 exemplaires ne sert à rien si tu ne sais plus laquelle ouvre la porte. La sauvegarde, c'est pareil : une copie qu'on n'a jamais testée est une fausse sécurité."
+          },
+          {
+            "t": "comment",
+            "h": "La règle 3-2-1",
+            "c": "<b>3</b> copies de tes données (l'original + 2), sur <b>2</b> supports différents (disque dur ET cloud, pas deux disques du même lot), dont <b>1</b> hors site (loin de tes locaux). Et surtout : <b>teste la restauration</b> régulièrement, avant d'en avoir besoin."
+          },
+          {
+            "t": "schema",
+            "h": "La règle 3-2-1 en image",
+            "arrows": false,
+            "boxes": [
+              {
+                "l": "3 copies",
+                "s": "l'original + 2"
+              },
+              {
+                "l": "2 supports",
+                "s": "disque + cloud"
+              },
+              {
+                "l": "1 hors site",
+                "s": "loin des locaux"
+              }
+            ],
+            "note": "3 copies, sur 2 supports différents, dont 1 hors site. Sinon un feu, un vol ou un ransomware détruit tout d'un coup."
+          },
+          {
+            "t": "pourquoi",
+            "h": "Pourquoi ça te sert",
+            "c": "C'est le cœur du Bloc 3 : « configurer des solutions de réplication, de sauvegarde et de restauration ». Et en pentest, un ransomware attaque ta disponibilité — la sauvegarde est ta défense n°1, celle qui rend un ransomware inutile si elle est bien faite."
+          },
+          {
+            "t": "exo",
+            "h": "À toi de jouer",
+            "c": "Question de compréhension : pourquoi la règle exige-t-elle « 1 copie hors site » ? (Indice : imagine un incendie ou une inondation dans les locaux — que devient une sauvegarde posée à côté du serveur ?)"
+          }
+        ]
+      },
+      {
+        "id": "bloc3-incident",
+        "title": "Diagnostiquer un incident sans paniquer (une méthode)",
+        "minutes": 6,
+        "blocks": [
+          {
+            "t": "clair",
+            "h": "En clair",
+            "c": "Diagnostiquer un incident, ce n'est pas deviner : c'est suivre un <b>processus logique</b>, étape par étape. C'est exactement ce que le référentiel exige (« se conformer strictement à des processus logiques et méthodologiques »)."
+          },
+          {
+            "t": "analogie",
+            "h": "L'image dans la tête",
+            "c": "Un médecin ne prescrit pas un médicament au hasard. Il <b>écoute</b> le patient (les symptômes), <b>examine</b>, fait des <b>hypothèses</b>, <b>teste</b>, puis <b>conclut</b>. Diagnostiquer un incident informatique, c'est exactement la même démarche."
+          },
+          {
+            "t": "comment",
+            "h": "La méthode en 6 étapes",
+            "c": "<b>1. Recueillir</b> : quoi, depuis quand, qui est touché ? <b>2. Isoler</b> : délimiter le périmètre (un poste ? un service ? tout ?). <b>3. Hypothèses</b> : du plus probable au moins probable. <b>4. Tester</b> : UNE hypothèse à la fois, sans rien casser d'autre. <b>5. Corriger</b>. <b>6. Documenter</b> : noter ce qu'on a fait, pour la fois suivante et pour le rapport."
+          },
+          {
+            "t": "exemple",
+            "h": "Un exemple concret",
+            "c": "« Le serveur ne répond plus. » Tu ne redémarres pas tout de suite. Tu testes : est-il joignable (ping) ? Le service est-il lancé ? Le disque est-il plein ? Chaque test élimine ou confirme une hypothèse. C'est ça, diagnostiquer au lieu de réagir."
+          },
+          {
+            "t": "pourquoi",
+            "h": "Pourquoi ça te sert",
+            "c": "C'est exactement ce que tu fais déjà dans mon entreprise (support et incidents), donc ça remplit le Bloc 3 ET le Bloc 5. Et en pentest, la même méthode sert à comprendre pourquoi une cible se comporte bizarrement — un pentester est d'abord un très bon diagnostiqueur."
+          },
+          {
+            "t": "exo",
+            "h": "À toi de jouer",
+            "c": "Reprends un incident que tu as déjà traité. Réécris-le en suivant les 6 étapes. Où as-tu (ou aurais-tu) sauté une étape ? C'est souvent l'étape 1 ou 6 qu'on saute — et ce sont les plus importantes."
+          }
+        ]
+      },
+      {
+        "id": "bloc3-equipements",
+        "title": "Sécuriser les équipements numériques (les réflexes)",
+        "minutes": 6,
+        "blocks": [
+          {
+            "t": "clair",
+            "h": "En clair",
+            "c": "Sécuriser un poste de travail, c'est une poignée de <b>réflexes simples</b>, pas de la magie. La plupart des piratages réussissent parce qu'un de ces réflexes n'a pas été appliqué."
+          },
+          {
+            "t": "analogie",
+            "h": "L'image dans la tête",
+            "c": "C'est comme fermer la porte à clé, mettre l'alarme, et vérifier les fenêtres avant de partir. Aucune action n'est spectaculaire, mais c'est leur <i>somme</i> qui rend la maison difficile à cambrioler."
+          },
+          {
+            "t": "comment",
+            "h": "Les 6 réflexes",
+            "c": "<b>1. Mots de passe forts et uniques</b> (gestionnaire de mots de passe). <b>2. Double authentification (MFA)</b> : une 2ᵉ clé en plus du mot de passe. <b>3. Mises à jour</b> : elles corrigent les failles connues. <b>4. Moindre privilège</b> : ne pas être admin par défaut. <b>5. Verrouillage auto</b> de la session. <b>6. Chiffrement du disque</b>."
+          },
+          {
+            "t": "exemple",
+            "h": "Un exemple concret",
+            "c": "Un collègue a le mot de passe « 123456 » et pas de MFA → c'est une porte grande ouverte. En pentest, c'est la première chose qu'on tente (et la plus facile). Un mot de passe unique + MFA rend cette attaque presque inutile."
+          },
+          {
+            "t": "pourquoi",
+            "h": "Pourquoi ça te sert",
+            "c": "C'est le socle du Bloc 3 (« sécuriser les équipements numériques »). Chaque réflexe colmate une faille. Et toi, futur pentester, tu sauras exactement quoi attaquer : c'est en connaissant ces défenses qu'on les contourne."
+          },
+          {
+            "t": "exo",
+            "h": "À toi de jouer",
+            "c": "Passe en revue TON poste : as-tu un gestionnaire de mots de passe ? La MFA est-elle active sur tes comptes importants ? Ton disque est-il chiffré ? Note ce qui manque — c'est ta première « mini-audit sécurité », le même exercice qu'un pentester fait en vrai."
+          }
+        ]
+      },
+      {
+        "id": "bloc3-defense",
+        "title": "Les outils de défense : pare-feu, antivirus, chiffrement",
+        "minutes": 6,
+        "blocks": [
+          {
+            "t": "clair",
+            "h": "En clair",
+            "c": "Trois outils de base de la défense : le <b>pare-feu</b> (filtre ce qui entre et sort du réseau), l'<b>antivirus</b> (détecte et bloque les menaces connues), le <b>chiffrement</b> (rend les données illisibles sans la clé)."
+          },
+          {
+            "t": "analogie",
+            "h": "L'image dans la tête",
+            "c": "Le <b>pare-feu</b> = la douane : il contrôle qui passe, sur quel port, avec quelles règles. L'<b>antivirus</b> = le chien renifleur : il reconnaît les dangereux déjà fichés. Le <b>chiffrement</b> = écrire en code secret : même si on vole le message, on ne peut pas le lire."
+          },
+          {
+            "t": "comment",
+            "h": "Comment chacun fonctionne",
+            "c": "<b>Pare-feu</b> : une liste de règles qui autorise ou bloque le trafic (par IP, par port, par application). <b>Antivirus / EDR</b> : il compare les fichiers à des signatures connues ET surveille les comportements anormaux. <b>Chiffrement</b> : les données sont brouillées mathématiquement ; sans la clé, elles sont inexploitables."
+          },
+          {
+            "t": "exemple",
+            "h": "Un exemple concret",
+            "c": "Le chiffrement de disque (FileVault sur Mac, BitLocker sur Windows) : si on te vole ton ordinateur, le voleur ne peut pas lire tes fichiers. Le pare-feu : il bloque un port ouvert inutilement, qui serait sinon une porte d'entrée."
+          },
+          {
+            "t": "pourquoi",
+            "h": "Pourquoi ça te sert",
+            "c": "Le Bloc 3 exige de « déployer des solutions de sécurité ». Comprendre ces 3 briques, c'est comprendre la défense que tu devras contourner en pentest : on attaque d'abord ce qui est mal configuré (un pare-feu trop ouvert, un antivirus non à jour)."
+          },
+          {
+            "t": "exo",
+            "h": "À toi de jouer",
+            "c": "Avec tes mots : quelle est la différence entre un pare-feu et un antivirus ? (Indice : l'un filtre le passage, l'autre reconnaît le danger.) Si tu peux l'expliquer en une phrase chacun, tu les as compris."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bloc4",
+    "name": "Bloc 4 · Entretenir",
+    "emoji": "🔧",
+    "intro": "Ton <b>Bloc 4 : entretenir</b>, c'est maintenir le matériel et les systèmes en état de marche — prévenir les pannes, dépanner, mettre à jour, documenter. Déployer (1) pose, administrer (2) fait tourner, entretenir (4) répare et prévient. C'est le bloc le plus « terrain » : on met les mains dans le matériel.",
+    "lessons": [
+      {
+        "id": "bloc4-quoi",
+        "title": "Entretenir = prévenir avant de réparer",
+        "minutes": 4,
+        "blocks": [
+          {
+            "t": "clair",
+            "h": "En clair",
+            "c": "Entretenir, c'est 2 choses : la <b>maintenance préventive</b> (agir AVANT la panne) et la <b>maintenance curative</b> (réparer APRÈS). Le pro passe le plus de temps dans le préventif."
+          },
+          {
+            "t": "analogie",
+            "h": "L'image dans la tête",
+            "c": "Une voiture : changer l'huile régulièrement (préventif) coûte 50 € et évite le moteur cassé (curatif) à 3000 €. Le technicien fait pareil : surveiller, nettoyer, mettre à jour, remplacer avant que ça casse."
+          },
+          {
+            "t": "comment",
+            "h": "Comment ça marche",
+            "c": "Le <b>préventif</b> = vérifier régulièrement (disques pleins ? ventilateurs ? mises à jour ? sauvegardes qui tournent ?). Le <b>curatif</b> = la méthode de diagnostic du Bloc 3 : recueillir → isoler → hypothèses → tester → corriger → documenter."
+          },
+          {
+            "t": "exemple",
+            "h": "Un exemple concret",
+            "c": "Tu remarques qu'un disque affiche des erreurs → tu le remplaces AVANT qu'il lâche et emporte les données. C'est de l'entretien préventif, et ça vaut de l'or pour une entreprise."
+          },
+          {
+            "t": "pourquoi",
+            "h": "Pourquoi ça te sert",
+            "c": "C'est le Bloc 4 du référentiel (« entretenir le matériel, mettre à jour »). Et ça te rend indispensable : une entreprise paie cher pour quelqu'un qui évite les pannes, pas seulement qui les répare."
+          },
+          {
+            "t": "exo",
+            "h": "À toi de jouer",
+            "c": "Avec tes mots : quelle différence entre préventif et curatif ? Donne un exemple de chaque pour un ordinateur."
+          }
+        ]
+      },
+      {
+        "id": "bloc4-depanner",
+        "title": "Dépanner le matériel (la méthode)",
+        "minutes": 6,
+        "blocks": [
+          {
+            "t": "clair",
+            "h": "En clair",
+            "c": "Dépanner le matériel = trouver quel composant est en cause (disque ? mémoire ? alimentation ? câble ?) en testant UNE hypothèse à la fois, du plus probable au moins probable."
+          },
+          {
+            "t": "analogie",
+            "h": "L'image dans la tête",
+            "c": "Une lampe ne s'allume plus : tu ne changes pas toute la maison. Tu testes l'ampoule, puis la prise, puis le câble, puis le disjoncteur. Chaque test élimine une cause."
+          },
+          {
+            "t": "comment",
+            "h": "La méthode (identique au Bloc 3)",
+            "c": "<b>1. Recueillir</b> — que se passe-t-il exactement ? bruit, écran, odeur ? <b>2. Isoler</b> — le poste entier, l'écran, une carte ? <b>3. Tester</b> une hypothèse à la fois (rebrancher, permuter avec une pièce connue bonne). <b>4. Corriger</b>. <b>5. Documenter</b>. Les suspects classiques : alimentation, RAM, disque, câble, surchauffe."
+          },
+          {
+            "t": "exemple",
+            "h": "Un exemple concret",
+            "c": "Un PC ne démarre pas : pas d'écran, pas de bruit. Tu testes l'alimentation (autre prise/câble), puis la RAM (une barrette à la fois), puis le disque. Chaque test confirme ou élimine une cause, sans rien casser d'autre."
+          },
+          {
+            "t": "pourquoi",
+            "h": "Pourquoi ça te sert",
+            "c": "C'est le Bloc 4 pur, et la même logique que tout le métier : diagnostiquer méthodiquement au lieu de deviner. C'est la différence entre un technicien et quelqu'un qui « essaie des trucs »."
+          },
+          {
+            "t": "exo",
+            "h": "À toi de jouer",
+            "c": "Un PC s'allume mais l'écran reste noir. Écris tes 3 premières hypothèses, de la plus probable à la moins probable, et le test que tu ferais pour chacune."
+          }
+        ]
+      },
+      {
+        "id": "bloc4-documenter",
+        "title": "Documenter : la mémoire du technicien",
+        "minutes": 5,
+        "blocks": [
+          {
+            "t": "clair",
+            "h": "En clair",
+            "c": "Documenter = écrire ce que tu as fait, comment, et pourquoi. Une intervention non documentée est une intervention perdue : ni toi ni tes collègues ne pourrez la retrouver."
+          },
+          {
+            "t": "analogie",
+            "h": "L'image dans la tête",
+            "c": "Le carnet d'entretien de la voiture : le prochain mécano sait ce qui a déjà été fait, quand, et avec quelles pièces. Sans carnet, il repart de zéro — et casse parfois plus."
+          },
+          {
+            "t": "comment",
+            "h": "Comment ça marche",
+            "c": "Une bonne fiche = <b>date + problème + cause + action + résultat + pièce/version + « à surveiller »</b>. Le format importe peu, la régularité oui. Et ça remplit le Bloc 4 ET nourrit ton mémoire TSRS (tu as déjà la méthode « Objectif / Réalisation / Bilan »)."
+          },
+          {
+            "t": "exemple",
+            "h": "Un exemple concret",
+            "c": "Tu remplaces un disque → tu notes : « 14h, serveur X, disque 2 en erreurs, remplacé par un neuf, sauvegarde restaurée, OK. À surveiller : disque 1 qui montre aussi des signes. » Ton futur toi te remerciera."
+          },
+          {
+            "t": "pourquoi",
+            "h": "Pourquoi ça te sert",
+            "c": "C'est demandé au Bloc 4 et au Bloc 5 (rendre compte). Et c'est exactement ce qui nourrira ton mémoire : documenter au fur et à mesure = 10 pages par mois sans douleur."
+          },
+          {
+            "t": "exo",
+            "h": "À toi de jouer",
+            "c": "Reprends la dernière intervention que tu as faite (même petite). Écris-la en 4 lignes : date / problème / action / résultat. Tu viens de documenter."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bloc5",
+    "name": "Bloc 5 · Supporter",
+    "emoji": "🤝",
+    "intro": "Ton <b>Bloc 5 : supporter</b>, c'est aider les utilisateurs, rendre compte et travailler en équipe. C'est le bloc « humain » du métier : un technicien ultra-compétent mais qui ne sait pas communiquer est limité. Bonne nouvelle : c'est exactement ce que tu développes ici, en apprenant à comprendre pour expliquer.",
+    "lessons": [
+      {
+        "id": "bloc5-quoi",
+        "title": "Supporter = aider sans laisser tomber",
+        "minutes": 4,
+        "blocks": [
+          {
+            "t": "clair",
+            "h": "En clair",
+            "c": "Supporter = prendre en charge la demande d'un utilisateur, du premier contact jusqu'à la résolution, et vérifier que c'est bien résolu. Pas juste « répondre » : accompagner."
+          },
+          {
+            "t": "analogie",
+            "h": "L'image dans la tête",
+            "c": "Un médecin ne dit pas « prenez ce médicament, au revoir ». Il écoute, explique, suit le patient jusqu'à la guérison. Le support informatique, c'est pareil : on suit le « ticket » jusqu'au bout."
+          },
+          {
+            "t": "comment",
+            "h": "Le cycle d'un ticket",
+            "c": "<b>1. Recevoir</b> (écouter, noter). <b>2. Qualifier</b> (comprendre le vrai problème, pas celui annoncé). <b>3. Résoudre ou escalader</b> (passer à un expert si besoin). <b>4. Clôturer</b> (confirmer que c'est réglé). <b>5. Rendre compte</b>. Chaque étape laisse une trace."
+          },
+          {
+            "t": "exemple",
+            "h": "Un exemple concret",
+            "c": "« Mon PC est lent » → ce n'est pas un problème, c'est un symptôme. Tu qualifies : lent à l'allumage ? sur un logiciel ? tout le temps ? → tu trouves la vraie cause (disque plein, RAM saturée) → tu corriges → tu confirmes avec l'utilisateur."
+          },
+          {
+            "t": "pourquoi",
+            "h": "Pourquoi ça te sert",
+            "c": "C'est le Bloc 5 du référentiel et ton quotidien dans mon entreprise. Et c'est de l'or pour ton mémoire : chaque ticket bien traité = une preuve du Bloc 5."
+          },
+          {
+            "t": "exo",
+            "h": "À toi de jouer",
+            "c": "Un collègue dit « le réseau ne marche pas ». Écris 3 questions que tu poserais AVANT de toucher quoi que ce soit, pour qualifier le vrai problème."
+          }
+        ]
+      },
+      {
+        "id": "bloc5-vulgariser",
+        "title": "Parler à un utilisateur (vulgariser)",
+        "minutes": 5,
+        "blocks": [
+          {
+            "t": "clair",
+            "h": "En clair",
+            "c": "Expliquer un problème technique à un non-technicien = traduire le jargon en images et en mots simples. C'est LA compétence que tu développes ici (comprendre pour expliquer)."
+          },
+          {
+            "t": "analogie",
+            "h": "L'image dans la tête",
+            "c": "Tu expliques à ton petit frère comment marche un site web : tu ne dis pas « TCP/IP sur le port 443 », tu dis « ton téléphone appelle le serveur et demande la page ». C'est exactement la méthode Feynman."
+          },
+          {
+            "t": "comment",
+            "h": "Les 3 réflexes",
+            "c": "<b>1. Écouter d'abord</b> (le problème réel). <b>2. Reformuler</b> (« si je comprends bien, vous dites que… ») pour valider. <b>3. Expliquer par analogie</b>, sans jargon, en vérifiant que c'est compris. Ne jamais faire sentir à l'utilisateur qu'il est « nul »."
+          },
+          {
+            "t": "exemple",
+            "h": "Un exemple concret",
+            "c": "Un utilisateur dit « je n'arrive pas à envoyer mon email ». Tu ne parles pas de SMTP : tu dis « c'est comme une lettre sans adresse de destination — on va vérifier à qui elle part ». Et tu vérifies qu'il a compris."
+          },
+          {
+            "t": "pourquoi",
+            "h": "Pourquoi ça te sert",
+            "c": "C'est le cœur du Bloc 5 (« supporter les utilisateurs »), et ça te rend précieux : le technicien qui explique bien est rare et demandé. Et ça s'applique à ton jury : expliquer simplement = convaincre."
+          },
+          {
+            "t": "exo",
+            "h": "À toi de jouer",
+            "c": "Explique à quelqu'un de non-technicien (ou écris-le) ce qu'est une adresse IP, en une phrase, sans jargon. Si tu y arrives, tu maîtrises la vulgarisation."
+          }
+        ]
+      },
+      {
+        "id": "bloc5-rendre-compte",
+        "title": "Rendre compte et travailler en équipe",
+        "minutes": 5,
+        "blocks": [
+          {
+            "t": "clair",
+            "h": "En clair",
+            "c": "Rendre compte = dire ce qu'on a fait, le résultat, et ce qui reste, de façon claire et traçable. Travailler en équipe = ne pas garder l'info pour soi."
+          },
+          {
+            "t": "analogie",
+            "h": "L'image dans la tête",
+            "c": "Dans une équipe, chacun est une pièce du puzzle. Rendre compte, c'est dire aux autres « voici ma pièce et comment elle s'assemble aux vôtres ». Sans ça, les pièces ne s'emboîtent pas."
+          },
+          {
+            "t": "comment",
+            "h": "Comment ça marche",
+            "c": "La méthode <b>QQOQCP</b> (Qui, Quoi, Où, Quand, Comment, Pourquoi) — celle de ton mémoire — sert aussi au quotidien : un rapport, un ticket, un mail. Les outils : le ticket (suivi), le rapport, le compte-rendu."
+          },
+          {
+            "t": "exemple",
+            "h": "Un exemple concret",
+            "c": "Tu finis une intervention → tu écris un ticket clair : « Qui : toi. Quoi : disque remplacé. Quand : 14h. Comment : image + restauration. Résultat : serveur OK. Reste : surveiller disque 1. » Ton chef et tes collègues savent tout, sans te rappeler."
+          },
+          {
+            "t": "pourquoi",
+            "h": "Pourquoi ça te sert",
+            "c": "C'est demandé au Bloc 5, et c'est un réflexe de professionnel. Ton jury de TSRS jugera aussi ça : ta capacité à rendre compte de ton travail. Et c'est exactement ce qui nourrit ton mémoire."
+          },
+          {
+            "t": "exo",
+            "h": "À toi de jouer",
+            "c": "Rédige en 3 lignes (Qui / Quoi / Résultat) le compte-rendu d'une chose que tu as faite cette semaine. C'est le même réflexe que ton futur mémoire."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ia",
+    "name": "Intelligence Artificielle",
+    "emoji": "🤖",
+    "intro": "Tu veux comprendre comment ChatGPT ou Claude marchent vraiment, et comment en exploiter le maximum (voire en construire). On part du cœur : les tokens.",
+    "lessons": [
+      {
+        "id": "ia-llm",
+        "title": "C'est quoi un LLM (ChatGPT, Claude) ? Les tokens",
+        "minutes": 6,
+        "blocks": [
+          {
+            "t": "clair",
+            "h": "En clair",
+            "c": "ChatGPT ou Claude sont des <b>LLM</b> (grands modèles de langage) : des machines entraînées sur des milliards de textes pour prédire le mot le plus probable qui vient après. Ils ne « pensent » pas — ils complètent, très bien."
+          },
+          {
+            "t": "analogie",
+            "h": "L'image dans la tête",
+            "c": "Imagine l'auto-complétion de ton téléphone, mais à l'échelle surhumaine. Tu écris « le ciel est… », ton téléphone propose « bleu ». Le LLM, lui, a lu tout l'internet et propose la suite la plus probable selon le contexte — phrase après phrase."
+          },
+          {
+            "t": "comment",
+            "h": "Comment ça marche vraiment (les tokens)",
+            "c": "Le texte est découpé en <b>tokens</b> (bouts de mots). « Bonjour » ≈ 2-3 tokens. Le modèle ne lit pas des lettres : il lit des tokens, et calcule « quel token vient ensuite ? » en boucle. C'est pour ça qu'il « rédige » mot à mot, et qu'il peut parfois inventer (on appelle ça une hallucination) : il prédit le plus probable, pas le vrai."
+          },
+          {
+            "t": "exemple",
+            "h": "Un exemple concret",
+            "c": "Tu lui demandes « écris une phrase sur la mer ». Il découpe, prédit le premier token « La », puis « mer », puis « est », puis « calme »… et tu lis une phrase fluide. À aucun moment il n'a « pensé » à la mer : il a produit la suite de tokens la plus probable pour ta demande."
+          },
+          {
+            "t": "pourquoi",
+            "h": "Pourquoi ça te sert",
+            "c": "Comprendre ça change TOUT : tu comprends pourquoi il peut se tromper (il prédit), pourquoi le contexte compte (il ne garde qu'une fenêtre limitée de tokens), et pourquoi bien formuler ta demande (= le prompt) est si puissant."
+          },
+          {
+            "t": "exo",
+            "h": "À toi de jouer",
+            "c": "Pose à ChatGPT la question « complète : 1, 2, 3, … ». Puis demande-lui de t'expliquer POURQUOI il a répondu ça. Compare avec ce que tu viens d'apprendre : la réponse colle-t-elle à « il prédit la suite la plus probable » ?"
+          }
+        ]
+      },
+      {
+        "id": "ia-construire",
+        "title": "Comment on construit un assistant (API + RAG)",
+        "minutes": 6,
+        "blocks": [
+          {
+            "t": "clair",
+            "h": "En clair",
+            "c": "Construire un assistant, ce n'est pas réinventer ChatGPT. C'est <b>brancher un LLM existant via une API</b> (une porte d'accès payante au modèle), et lui donner accès à TON info via du RAG (recherche dans tes propres documents)."
+          },
+          {
+            "t": "analogie",
+            "h": "L'image dans la tête",
+            "c": "Le LLM = un expert très cultivé mais qui ne connaît rien de ton entreprise. L'<b>API</b> = son numéro de téléphone direct (tu l'appelles, tu paies à la minute). Le <b>RAG</b> = tu lui glisses une fiche sur ton entreprise sous la table avant qu'il réponde, pour qu'il parle de TES produits et pas d'inventions."
+          },
+          {
+            "t": "comment",
+            "h": "Comment ça marche vraiment",
+            "c": "<b>API</b> : tu envoies du texte à un endpoint (une URL) avec ta clé secrète, le modèle répond, tu paies au token. <b>RAG</b> : quand une question arrive, on cherche d'abord les passages pertinents dans TON dossier, on les colle dans le contexte, et le modèle répond en s'appuyant dessus. Résultat : un assistant qui répond sur TES données, sans avoir à réentraîner le modèle (ce que presque personne ne fait, c'est trop cher)."
+          },
+          {
+            "t": "exemple",
+            "h": "Un exemple concret",
+            "c": "Tu veux un chatbot qui répond aux questions sur tes 7 PDF de formation. Tu ne réentraînes rien : tu découpes tes PDF en petits bouts, tu les ranges dans une base de recherche. Quand quelqu'un demande « c'est quoi le module 2 ? », le système cherche les bouts pertinents, les colle dans le prompt avec la question, et le LLM répond. Ça, c'est un assistant « maison » en une journée."
+          },
+          {
+            "t": "pourquoi",
+            "h": "Pourquoi ça te sert",
+            "c": "C'est exactement le business que tu construis (Agentia). « Créer une IA » dans le vrai monde = brancher un modèle + lui donner tes données + l'emballer proprement. C'est accessible, et c'est ce que les entreprises paient."
+          },
+          {
+            "t": "exo",
+            "h": "À toi de jouer",
+            "c": "Réponds avec tes mots : pourquoi on ne « réentraîne » pas le modèle pour lui apprendre nos données, mais on fait du RAG à la place ? (Indice : pense au coût et au temps.)"
+          }
+        ]
+      },
+      {
+        "id": "ia-exploiter",
+        "title": "Exploiter une IA au maximum (prompt + outils)",
+        "minutes": 5,
+        "blocks": [
+          {
+            "t": "clair",
+            "h": "En clair",
+            "c": "Exploiter une IA au max = (1) bien formuler ta demande, (2) lui donner du contexte, (3) lui filer des <b>outils</b> pour agir au lieu de seulement parler."
+          },
+          {
+            "t": "analogie",
+            "h": "L'image dans la tête",
+            "c": "L'IA, c'est un stagiaire ultra-brillant mais qui ne devine rien. Si tu lui dis « fais-moi un truc », tu obtiens un truc vague. Si tu lui dis « voilà le contexte, voilà le résultat attendu, voilà les contraintes », tu obtiens de l'or."
+          },
+          {
+            "t": "comment",
+            "h": "La formule d'un bon prompt",
+            "c": "<b>Rôle + Contexte + Tâche + Format + Contrainte.</b> Exemple : « Tu es un dev senior (rôle). Je suis alternant en cyber (contexte). Explique ce script Python ligne par ligne (tâche) en français simple avec une analogie par ligne (format). Pas de jargon sans le définir (contrainte). » Et les <b>outils</b> (function calling) : tu laisses l'IA appeler une vraie action (chercher dans une base, envoyer un email) au lieu de faire semblant."
+          },
+          {
+            "t": "exemple",
+            "h": "Un exemple concret",
+            "c": "Mauvais prompt : « aide-moi avec mon serveur ». Bon prompt : « Je vois le message « port 22 : connexion refusée ». Je suis sur un Mac, le serveur est en SSH. Que dois-je vérifier, dans quel ordre, et que tape exactement chaque commande ? ». Le deuxième te donne une vraie procédure."
+          },
+          {
+            "t": "pourquoi",
+            "h": "Pourquoi ça te sert",
+            "c": "C'est la compétence qui rend l'IA 10× plus utile pour tes études, ton taf et ton business. Et ça se combine avec la partie Code : plus tu sais lire, mieux tu peux demander et vérifier."
+          },
+          {
+            "t": "exo",
+            "h": "À toi de jouer",
+            "c": "Reprends une question que tu as déjà posée à une IA et qui t'a déçu. Reformule-la avec la formule Rôle+Contexte+Tâche+Format+Contrainte. Compare la qualité de la réponse. Note la différence."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "auto",
+    "name": "Automatisation",
+    "emoji": "⚙️",
+    "intro": "Une automatisation = enlever les tâches répétitives à ta place. C'est aussi un business (Agentia). On comprend les briques avant de toucher aux outils.",
+    "lessons": [
+      {
+        "id": "auto-quoi",
+        "title": "C'est quoi une automatisation ?",
+        "minutes": 4,
+        "blocks": [
+          {
+            "t": "clair",
+            "h": "En clair",
+            "c": "Une automatisation = un enchaînement d'actions que la machine exécute toute seule, déclenché par un événement, sans que tu aies à le refaire à la main à chaque fois."
+          },
+          {
+            "t": "analogie",
+            "h": "L'image dans la tête",
+            "c": "C'est le principe du domino : tu pousses le premier (le déclencheur), et tous les autres tombent tout seuls dans l'ordre que tu as choisi (les actions). Toi, tu n'as fait que pousser le premier."
+          },
+          {
+            "t": "comment",
+            "h": "Les 3 briques",
+            "c": "<b>1. Déclencheur</b> — « quand il se passe X » (un email arrive, une heure sonne, un formulaire est rempli). <b>2. Actions</b> — « alors fais Y, puis Z » (copier, envoyer, noter, lancer un script). <b>3. Condition</b> — « mais seulement si… » (si l'email contient « devis », alors…). C'est tout. Les gros outils (n8n, Make, Zapier) ne sont que des assembleurs de ces 3 briques."
+          },
+          {
+            "t": "pourquoi",
+            "h": "Pourquoi ça te sert",
+            "c": "C'est à la fois ton futur métier (les entreprises paient pour qu'on leur retire les tâches répétitives) et un gain de temps perso. Et ça te rend meilleur en cyber : comprendre comment un système s'enchaîne, c'est comprendre où ça peut casser."
+          },
+          {
+            "t": "exo",
+            "h": "À toi de jouer",
+            "c": "Trouve UNE tâche répétitive que tu fais chaque semaine (même perso : trier des mails, noter quelque chose). Écris-la en 3 lignes : déclencheur / actions / condition. Félicitations, tu viens de « concevoir » une automatisation."
+          }
+        ]
+      },
+      {
+        "id": "auto-exemple",
+        "title": "Un vrai exemple de bout en bout",
+        "minutes": 6,
+        "blocks": [
+          {
+            "t": "clair",
+            "h": "En clair",
+            "c": "On va voir une automatisation réelle : « quand un email arrive avec « devis » dans l'objet, copier le contenu dans une feuille de calcul et m'envoyer une alerte ». Ça se construit en 15 minutes avec n8n ou Make, sans écrire une ligne de code."
+          },
+          {
+            "t": "analogie",
+            "h": "L'image dans la tête",
+            "c": "C'est comme un assistant invisible qui surveille ta boîte mail 24h/24 : dès qu'un devis arrive, il le recopie proprement dans ton tableau ET t'envoie un SMS pour te prévenir. Toi, tu n'ouvres plus jamais ta boîte pour chercher les devis."
+          },
+          {
+            "t": "comment",
+            "h": "Le schéma",
+            "c": "<b>Déclencheur</b> : « nouvel email reçu » (le serveur mail prévient l'outil). <b>Condition</b> : « l'objet contient « devis » ». <b>Action 1</b> : écrire une ligne dans Google Sheets (expéditeur, sujet, date). <b>Action 2</b> : envoyer une notification. L'outil enchaîne ces briques à chaque email. Si tu branches une IA au milieu, elle peut même rédiger une réponse au devis — et là tu tiens le workflow qu'on teste côté Agentia."
+          },
+          {
+            "t": "exemple",
+            "h": "Le résultat",
+            "c": "Avant : tu passes 20 min/jour à trier les devis, tu en rates parfois. Après : le tableau se remplit seul, tu reçois une alerte, tu ne rates plus rien. C'est la valeur que les entreprises achètent."
+          },
+          {
+            "t": "pourquoi",
+            "h": "Pourquoi ça te sert",
+            "c": "C'est exactement l'offre que tu es en train de valider pour Agentia. Et même pour toi : tes veilles, tes rapports, tes relances — tout ce que tu fais à la main plusieurs fois peut être automatisé."
+          },
+          {
+            "t": "exo",
+            "h": "À toi de jouer",
+            "c": "Décris avec tes mots, en 4 étapes maximum, une automatisation qui te ferait gagner du temps cette semaine. Puis note : quel est le déclencheur ? la condition ? les actions ? C'est le plan d'une vraie automatisation."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "code",
+    "name": "Code",
+    "emoji": "💻",
+    "intro": "Tu veux apprendre à LIRE le code que l'IA t'écrit, pas forcément devenir développeur. C'est exactement le bon objectif : lire, comprendre, vérifier. On y va.",
+    "lessons": [
+      {
+        "id": "code-lire",
+        "title": "Lire du code sans être développeur",
+        "minutes": 5,
+        "blocks": [
+          {
+            "t": "clair",
+            "h": "En clair",
+            "c": "Lire du code, c'est 90 % du chemin pour ne plus dépendre aveuglément d'une IA. Un programme, c'est une recette écrite pas à pas — si tu sais lire les étapes, tu sais ce qu'il fait."
+          },
+          {
+            "t": "analogie",
+            "h": "L'image dans la tête",
+            "c": "Un script = une recette de cuisine. Chaque ligne = une instruction : « prends 2 œufs », « mélange », « si c'est trop sec, ajoute du lait ». Lire du code, c'est lire la recette avant de l'exécuter — pour savoir si elle va donner un gâteau ou une catastrophe."
+          },
+          {
+            "t": "comment",
+            "h": "Comment lire",
+            "c": "Ne lis pas de haut en bas en paniquant. Repère : <b>1. Les variables</b> (les boîtes qui contiennent des valeurs). <b>2. Les conditions</b> (les « si… alors… »). <b>3. Les boucles</b> (les « répète tant que… »). <b>4. Les fonctions</b> (les blocs réutilisables avec un nom). <b>5. Les entrées/sorties</b> (ce qui entre, ce qui sort). 90 % du code du monde n'utilise que ces 5 idées."
+          },
+          {
+            "t": "pourquoi",
+            "h": "Pourquoi ça te sert",
+            "c": "Quand une IA t'écrit un script, tu pourras : vérifier qu'il ne fait pas n'importe quoi (surtout en cyber, où un script peut être dangereux), le corriger, et demander des changements précis au lieu de « ça marche pas »."
+          },
+          {
+            "t": "exo",
+            "h": "À toi de jouer",
+            "c": "Ne touche à rien d'autre pour l'instant. Garde juste en tête les 5 briques : variable, condition, boucle, fonction, entrée/sortie. La prochaine leçon les détaille une par une."
+          }
+        ]
+      },
+      {
+        "id": "code-briques",
+        "title": "Les 5 briques de base, une par une",
+        "minutes": 8,
+        "blocks": [
+          {
+            "t": "clair",
+            "h": "En clair",
+            "c": "Presque tout le code repose sur 5 idées simples. Si tu les reconnais, tu peux lire n'importe quel script en te demandant simplement « laquelle des 5 c'est ? »."
+          },
+          {
+            "t": "analogie",
+            "h": "Les 5 briques = les 5 outils d'une boîte",
+            "c": "<b>Variable</b> = une boîte étiquetée où tu ranges une valeur. <b>Condition</b> = un aiguillage « si… alors… sinon… ». <b>Boucle</b> = un tourniquet « répète ceci ». <b>Fonction</b> = un sous-programme avec un nom, que tu appelles quand tu veux. <b>Entrée/sortie</b> = ce que le programme reçoit (input) et rend (print/return)."
+          },
+          {
+            "t": "comment",
+            "h": "En Python, ça ressemble à ça",
+            "c": "",
+            "code": [
+              [
+                "# 1. VARIABLE : une boîte qui range une valeur",
+                "age = 21"
+              ],
+              [
+                "# 2. CONDITION : un aiguillage",
+                "if age >= 18:",
+                "    print(\"majeur\")",
+                "else:",
+                "    print(\"mineur\")"
+              ],
+              [
+                "# 3. BOUCLE : répéter",
+                "for i in range(3):",
+                "    print(i)   # affiche 0, 1, 2"
+              ],
+              [
+                "# 4. FONCTION : un bloc nommé, réutilisable",
+                "def dire_bonjour(nom):",
+                "    print(\"Bonjour\", nom)"
+              ],
+              [
+                "# 5. ENTREE/SORTIE",
+                "prenom = input(\"Ton prénom ? \")  # entre",
+                "dire_bonjour(prenom)              # sort"
+              ]
+            ]
+          },
+          {
+            "t": "exemple",
+            "h": "Lis ce mini-script",
+            "c": "<code>def doubler(n): return n * 2</code> puis <code>print(doubler(5))</code>. Lis-le : « doubler » est une fonction (brique 4) qui prend une valeur n et la rend doublée. Ensuite on l'appelle avec 5, donc on affiche 10. Tu viens de lire du code."
+          },
+          {
+            "t": "pourquoi",
+            "h": "Pourquoi ça te sert",
+            "c": "Les scripts que l'IA t'écrira (scanner un réseau, automatiser une tâche) ne sont QUE des combinaisons de ces 5 briques. Reconnaître les briques = comprendre le script, même sans tout connaître."
+          },
+          {
+            "t": "exo",
+            "h": "À toi de jouer",
+            "c": "Reprends les 5 briques et écris (sur papier ou dans ta tête) ce que fait : <code>for mot in [\"pomme\", \"poire\"]: print(mot)</code>. Si tu dis « ça affiche pomme puis poire », tu as compris la boucle."
+          }
+        ]
+      },
+      {
+        "id": "code-lire-script",
+        "title": "Lire un vrai script que l'IA t'a donné",
+        "minutes": 6,
+        "blocks": [
+          {
+            "t": "clair",
+            "h": "En clair",
+            "c": "On prend un vrai petit script utile (en cyber : vérifier si un site répond) et on le lit ligne par ligne. C'est exactement le réflexe que tu veux avoir avec une IA."
+          },
+          {
+            "t": "comment",
+            "h": "Le script, puis sa lecture",
+            "c": "",
+            "code": [
+              [
+                "import requests",
+                "",
+                "def site_en_ligne(url):",
+                "    try:",
+                "        r = requests.get(url, timeout=5)",
+                "        return f\"OK ({r.status_code})\"",
+                "    except Exception as e:",
+                "        return f\"Injoignable : {e}\"",
+                "",
+                "print(site_en_ligne(\"https://example.com\"))"
+              ]
+            ]
+          },
+          {
+            "t": "exemple",
+            "h": "Lecture ligne par ligne",
+            "c": "<code>import requests</code> → on charge une bibliothèque qui sait parler HTTP (la langue des sites, tu l'as vue en cyber). <code>def site_en_ligne(url):</code> → on définit une fonction nommée qui prend une adresse. <code>try:</code> → « essaie ceci ». <code>r = requests.get(url)</code> → envoie une requête et range la réponse. <code>return f« OK (...) »</code> → si ça marche, rend « OK + code ». <code>except:</code> → « si ça plante, au lieu de planter ». <code>print(...)</code> → affiche le résultat. Tu viens de lire un script entier."
+          },
+          {
+            "t": "pourquoi",
+            "h": "Pourquoi ça te sert",
+            "c": "Ce script est le genre de chose qu'une IA t'écrit en 5 secondes. Maintenant, tu peux le lire, deviner ce qu'il fait, et même repérer qu'il ne teste qu'un seul site (tu saurais le modifier pour en tester plusieurs avec une boucle — brique 3)."
+          },
+          {
+            "t": "exo",
+            "h": "À toi de jouer",
+            "c": "Demande à une IA : « écris un script Python qui vérifie si un site répond, explique chaque ligne en français simple ». Puis lis-le toi-même D'ABORD, et compare ton explication avec la sienne. Où vous divergez, c'est ta prochaine chose à comprendre."
+          }
+        ]
+      }
+    ]
+  }
+]
