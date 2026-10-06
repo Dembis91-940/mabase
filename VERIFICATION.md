@@ -38,3 +38,6 @@ Tests automatisés réussis :
 Les captures et tests visuels de défilement sur ordinateur, mobile et mouvement réduit ne sont pas terminés : le lancement Chrome automatisé est bloqué et Computer Use attend les permissions macOS. Le fonctionnement du véritable modèle local n’a pas été testé ; ses réponses ont été simulées. Aucun appareil mobile physique testé.
 
 Le contrôle fonctionnel automatique ne prouve pas l’absence de tout bug. Cette version attend la vérification visuelle avant publication. Les informations réglementaires ou propres au diplôme TSRS nécessitent le référentiel officiel.
+
+## Fusion v4
+Skill principal Hermes fusionné et installé avec GitHub 0.3.1 le 6 octobre 2026. L’accueil utilise maintenant une carte cliquable des 12 parcours. Le moteur de cet aperçu est lu depuis la fusion validée. Contrôle visuel toujours non réalisé ; il ne faut pas considérer les tests DOM comme une validation des pixels.

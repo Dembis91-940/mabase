@@ -31,3 +31,6 @@ La variété cinématique et les médias marketing ne sont pas ajoutés : le tes
 
 ## Vérification
 Bureau 1440, téléphone 390 et 320, mouvement réduit, navigation clavier, tous les cours, lignes de code, erreurs de stockage, sauvegarde et import, tuteur simulé. Captures des états de défilement. Appareil mobile physique non accessible.
+
+## Application de la fusion v4 (6 octobre 2026)
+Le moteur provient désormais du skill fusionné installé dans Hermes. L’accueil remplace la pile décorative par une carte des 12 parcours : chaque nœud ouvre un parcours et le centre affiche la progression réellement déclarée. Sur mobile, la carte se place sous la reprise. Les effets sont décoratifs ; aucun cours ne dépend de leur disponibilité.
