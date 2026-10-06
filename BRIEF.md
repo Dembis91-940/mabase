@@ -34,3 +34,6 @@ Bureau 1440, téléphone 390 et 320, mouvement réduit, navigation clavier, tous
 
 ## Application de la fusion v4 (6 octobre 2026)
 Le moteur provient désormais du skill fusionné installé dans Hermes. L’accueil remplace la pile décorative par une carte des 12 parcours : chaque nœud ouvre un parcours et le centre affiche la progression réellement déclarée. Sur mobile, la carte se place sous la reprise. Les effets sont décoratifs ; aucun cours ne dépend de leur disponibilité.
+
+## Refonte des écrans, 6 octobre 2026
+Parcours : couverture dimensionnelle dans la couleur du sujet, reprise directe, lecture restante calculée et liste ordonnée. Reformulations : extraits réels des notes et état vide illustré. Aucun cours nouveau ni changement de contenu. Contrôle visuel prévu sur GitHub Actions avec Chromium, car le navigateur local est bloqué.
