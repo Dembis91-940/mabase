@@ -1745,7 +1745,7 @@ function renderBlocks(lesson){
     }
     html += `<div class="block b-${b.t}"><div class="tag">${icon(({clair:9,analogie:0,comment:7,exemple:11,pourquoi:3,exo:1})[b.t]||0)} ${b.h}</div>`;
     html += `<p>${b.c}</p>`;
-    if (b.code){ html += "<pre>" + b.code.flat().map(l => {
+    if (b.code){ html += '<pre tabindex="0" role="region" aria-label="Exemple de code, défilement horizontal au clavier">' + b.code.flat().map(l => {
       let cls = "";
       if(/^\s*#/.test(l)) cls = "cm";
       return `<span class="${cls}">${escapeHtml(l)}</span>`;
