@@ -14,7 +14,7 @@ La correction envoie la leçon et la reformulation à `http://127.0.0.1:8080/v1/
 
 ## Design et dépendances
 
-Identité sombre, couleurs par parcours, accueil dimensionnel Scrollcraft, lecture aérée et parcours clavier. La préférence système de mouvement réduit est respectée. Le runtime ScrollCraft est embarqué dans le HTML ; sa licence et sa provenance sont dans `THIRD_PARTY_NOTICES.md`. Le skill appliqué est celui de l’installation Hermes de l’utilisateur. Le runtime officiel récent dispose du nettoyage requis lors des changements de vue.
+Direction Atelier : graphite, papier et cuivre, typographie Space Grotesk embarquée, carte orbitale Scrollcraft, parcours numérotés et carnet clair. Sur mobile, la reprise précède la carte. Lecture aérée et navigation clavier. La préférence système de mouvement réduit est respectée. Le runtime ScrollCraft est embarqué dans le HTML ; sa licence et sa provenance sont dans `THIRD_PARTY_NOTICES.md`. Le skill appliqué est celui de l’installation Hermes de l’utilisateur. Le runtime officiel récent dispose du nettoyage requis lors des changements de vue.
 
 Les dépendances npm servent uniquement aux tests, pas à l’application.
 

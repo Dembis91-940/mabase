@@ -41,3 +41,10 @@ La session navigateur sur GitHub utilise un tuteur simulé : elle n’accède pa
 Pas de test sur téléphone physique ni sur Safari. Aucun test ne garantit l’absence de tout défaut. Les informations propres au diplôme TSRS doivent être confirmées avec le référentiel officiel de la formation.
 
 Validation finale : [GitHub Actions — exécution réussie](https://github.com/Dembis91-940/mabase/actions/runs/37427168044), HTML testé au commit `b7d1057304b101acf9fd1fa55855d3afdb74d8dc`. Aucun signalement Axe sur les douze états contrôlés.
+
+## Révision graphique Atelier — 6 octobre 2026
+Version testée : `d7aa01f`, [exécution Chromium réussie](https://github.com/Dembis91-940/mabase/actions/runs/37467330388). Nouveau langage visuel graphite/papier/cuivre, Space Grotesk embarquée, carte orbitale, cartes de parcours et carnet clair. Les fonctions et les données de cours sont conservées.
+
+Tests sur 1440 × 1000, 1024 × 900, 390 × 844, 320 × 740 et mouvement réduit : accueil, reprise, catalogue, parcours, lecture, notes, recherche, menu mobile, saisie/rechargement et export/import réels. Aucun débordement du document dans les états capturés ; aucune erreur JavaScript ; aucune violation Axe sur les quinze écrans analysés. Les captures finales ont été examinées, notamment le petit écran, le catalogue mobile, la tablette et la lecture.
+
+Le débordement des plans décoratifs sur petit écran a été corrigé. Le test d’import attend la mise à jour effective du stockage après la confirmation, sans se contenter d’un texte déjà présent dans la page. Les limites précédentes restent applicables : navigateur Chromium, aucun téléphone physique ni Safari, tuteur simulé dans le navigateur de CI.
