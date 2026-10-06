@@ -27,4 +27,4 @@ Les tests utilisent un DOM simulé. Ils vérifient les 37 leçons, la conservati
 
 ## État de vérification
 
-Voir `VERIFICATION.md` pour les résultats et limites. La vérification visuelle et le véritable modèle local restent à contrôler. Les informations propres au diplôme nécessitent une confirmation avec le référentiel officiel de la formation.
+Voir `VERIFICATION.md` pour les résultats et limites. La vérification Chromium a réussi sur ordinateur, deux formats mobiles et en mouvement réduit ; les captures ont été examinées. Le modèle local répond à une requête réelle et son CORS autorise le site. Le test navigateur utilise un tuteur simulé ; aucun téléphone physique ni Safari n’a été testé. Les informations propres au diplôme nécessitent une confirmation avec le référentiel officiel de la formation.

@@ -1,43 +1,43 @@
 # Ma Base : refonte Scrollcraft et vérification
 
-Base revue : version Hermes `20a2fe7`. Les 12 parcours et 37 leçons sont conservés à l’identique, y compris l’anonymisation.
+Version de départ : Hermes `20a2fe7`. Les 12 parcours, les 37 leçons et l’anonymisation sont conservés à l’identique.
 
-## Corrections
+## Design et comportement
 
-- Exemples de code : toutes les lignes sont affichées, au lieu de la première ligne de chaque groupe.
-- Sauvegarde : validation des données chargées, gestion du stockage indisponible et conservation des données illisibles au lieu de les écraser.
-- Navigation : liens directs, historique du navigateur, liens accessibles au clavier, fermeture du menu mobile et touche Échap.
-- Import : validation, confirmation avant remplacement, rafraîchissement de la vue et possibilité de reprendre le même fichier.
-- Tuteur : délai maximal, annulation à la navigation, réponse vide traitée comme erreur, affichage sûr du texte.
-- Retour de l’accueil, de la reprise et de la liste des reformulations.
+- Accueil avec reprise de la leçon et carte des 12 parcours liée à la progression réelle.
+- Pages de parcours avec composition 3D, couleurs propres au sujet, lecture restante calculée et liste de leçons.
+- Lecture aérée avec rail d’étapes, navigation clavier et exemples de code complets.
+- Reformulations avec aperçu réel des textes, état vide et accès direct à l’édition.
+- Recherche, historique et liens directs, sauvegarde locale compatible et export/import JSON.
+- Animations réduites selon la préférence système. Nettoyage de ScrollCraft lors de chaque changement de vue.
 
-## Design
+Skill appliqué : Scrollcraft fusion v4, installé dans le skill principal Hermes ; base GitHub 0.3.1 (`75d81f74e83692add18cd7a8a8e078b8a887a579`) et personnalisations utilisateur. Le moteur embarqué conserve le code officiel et sa licence. Grammaire Live surface adaptée à l’apprentissage. Aucun média généré ni contenu de cours inventé.
 
-Identité sombre et couleurs par parcours conservées. Icônes vectorielles cohérentes, surfaces moins chargées, lecture à 16 px, largeur de texte maîtrisée, couches dimensionnelles à l’accueil et navigation des étapes au défilement. Mouvement réduit respecté. Les états compris et notes enregistrées restent des actions réelles.
+## Tests fonctionnels
 
-Skill utilisé : version locale Hermes `skills/design/scrollcraft/SKILL.md` (fusion v3). Grammaire Live surface, adaptée à une application d’apprentissage selon son test d’audience. Brief rédigé à partir de l’application et des préférences du skill. Aucun média généré ni appel à une API de génération.
+`npm ci && npm test` : les 37 leçons et toutes les lignes des exemples sont vérifiées. Le contenu est comparé à la référence Hermes. Les tests couvrent la compatibilité des anciennes notes, sauvegarde/rechargement, progression, recherche, imports invalides ou annulés, liens directs, navigation mobile, données locales corrompues, erreurs du tuteur et 40 changements de vue avec une seule instance ScrollCraft active.
 
-Runtime ScrollCraft officiel embarqué dans le HTML, avec sa fonction de démontage : elle évite d’accumuler les observateurs et boucles d’animation lors des changements de page. Moteur inchangé. Licence MIT embarquée.
+## Tests dans Chromium
 
-## Résultats vérifiés
+Exécutés sur GitHub Actions sur la version finale du HTML :
 
-Tests automatisés réussis :
+- Écrans 1440 × 1000, 390 × 844 et 320 × 740 ; session supplémentaire avec mouvement réduit.
+- Accueil, parcours Code, leçon, milieu de lecture, saisie, reformulations, recherche et menu mobile.
+- Aucun débordement horizontal du document dans les états capturés.
+- Lien d’évitement et focus clavier, saisie puis rechargement, progression, retour du tuteur simulé.
+- Téléchargement réel de l’export JSON puis restauration par sélection de fichier avec confirmation.
+- Contrôle Axe des écrans accueil, leçon et notes aux quatre configurations ; ce contrôle automatique ne constitue pas une certification d’accessibilité.
 
-- 37 leçons rendues, toutes les lignes de chaque exemple présentes.
-- Contenu pédagogique strictement identique à la version Hermes.
-- Compatibilité des anciennes notes et sauvegarde/rechargement.
-- Progression, recherche et filtres.
-- Import valide, rejet invalide et annulation sans perte.
-- Liens directs, page introuvable, reformulations et rail d’étapes.
-- Menu mobile et Échap, navigation avec de vrais liens.
-- Stockage indisponible et données corrompues conservées.
-- Succès et erreurs du tuteur simulés ; texte de réponse non exécuté comme HTML.
+Les captures ont été examinées. Deux défauts ont été corrigés : l’occultation de l’icône par un plan 3D, puis le manque d’accès clavier aux exemples de code défilants.
 
-## Limites restantes
+## Tuteur réellement installé
 
-Les captures et tests visuels de défilement sur ordinateur, mobile et mouvement réduit ne sont pas terminés : le lancement Chrome automatisé est bloqué et Computer Use attend les permissions macOS. Le fonctionnement du véritable modèle local n’a pas été testé ; ses réponses ont été simulées. Aucun appareil mobile physique testé.
+Le service local répond à `/health`. Une requête réelle à `/v1/chat/completions` a renvoyé une correction pertinente en français avec HTTP 200. Le prévol CORS et la réponse autorisent l’origine `https://dembis91-940.github.io`. Seul un exemple de test a été envoyé, aucune note personnelle.
 
-Le contrôle fonctionnel automatique ne prouve pas l’absence de tout bug. Cette version attend la vérification visuelle avant publication. Les informations réglementaires ou propres au diplôme TSRS nécessitent le référentiel officiel.
+La session navigateur sur GitHub utilise un tuteur simulé : elle n’accède pas au serveur du Mac. Une autorisation d’accès au réseau local peut encore dépendre du navigateur utilisé sur l’appareil.
 
-## Fusion v4
-Skill principal Hermes fusionné et installé avec GitHub 0.3.1 le 6 octobre 2026. L’accueil utilise maintenant une carte cliquable des 12 parcours. Le moteur de cet aperçu est lu depuis la fusion validée. Contrôle visuel toujours non réalisé ; il ne faut pas considérer les tests DOM comme une validation des pixels.
+## Limites
+
+Pas de test sur téléphone physique ni sur Safari. Aucun test ne garantit l’absence de tout défaut. Les informations propres au diplôme TSRS doivent être confirmées avec le référentiel officiel de la formation.
+
+Validation finale : [GitHub Actions — exécution réussie](https://github.com/Dembis91-940/mabase/actions/runs/37427168044), HTML testé au commit `b7d1057304b101acf9fd1fa55855d3afdb74d8dc`. Aucun signalement Axe sur les douze états contrôlés.
