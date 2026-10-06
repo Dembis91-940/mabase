@@ -37,3 +37,7 @@ Le moteur provient désormais du skill fusionné installé dans Hermes. L’accu
 
 ## Refonte des écrans, 6 octobre 2026
 Parcours : couverture dimensionnelle dans la couleur du sujet, reprise directe, lecture restante calculée et liste ordonnée. Reformulations : extraits réels des notes et état vide illustré. Aucun cours nouveau ni changement de contenu. Contrôle visuel prévu sur GitHub Actions avec Chromium, car le navigateur local est bloqué.
+
+## Révision Atelier, après retour utilisateur
+Retour explicite : « tu peux mieux faire sur le dessein non ? ». Conservation du choix sombre et de la grammaire Live surface, mais composition nouvelle. Direction conçue pour cette révision : graphite, cuivre, papier et verts désaturés ; typographie Space Grotesk intégrée hors ligne. Grand titre, carte orbitale des parcours, panneau clair de reprise, compteurs secondaires et cartes numérotées. Les couvertures de parcours et le carnet reprennent cette identité. Le contenu de formation et les fonctions ne changent pas.
+Courbe : accueil expressif et curieux, reprise immédiatement repérable, catalogue ordonné, cours calme, carnet clair pour écrire. La carte conserve ses douze liens et la progression réelle. Les mouvements se limitent aux surfaces décoratives et respectent la préférence de mouvement réduit.
