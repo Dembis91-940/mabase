@@ -6,7 +6,7 @@ const html=fs.readFileSync(path.join(__dirname,'../index.html'));
 const server=http.createServer((req,res)=>{res.setHeader('Content-Type','text/html; charset=utf-8');res.end(html)});
 const results=[],errors=[];
 (async()=>{await new Promise(resolve=>server.listen(4500,'127.0.0.1',resolve));const browser=await chromium.launch({headless:true});try{
-for(const config of [{name:'desktop',width:1440,height:1000},{name:'mobile',width:390,height:844},{name:'small',width:320,height:740},{name:'reduced',width:1440,height:1000,reducedMotion:'reduce'}]){
+for(const config of [{name:'desktop',width:1440,height:1000},{name:'tablet',width:1024,height:900},{name:'mobile',width:390,height:844},{name:'small',width:320,height:740},{name:'reduced',width:1440,height:1000,reducedMotion:'reduce'}]){
  const context=await browser.newContext({viewport:{width:config.width,height:config.height},reducedMotion:config.reducedMotion||'no-preference'});
  await context.addInitScript(()=>{Element.prototype.requestPointerLock=function(){};Element.prototype.setPointerCapture=function(){};Element.prototype.releasePointerCapture=function(){}});
  const page=await context.newPage();page.on('pageerror',e=>errors.push(config.name+': '+e.message));
@@ -14,7 +14,7 @@ for(const config of [{name:'desktop',width:1440,height:1000},{name:'mobile',widt
  const shot=async(name)=>{await page.waitForTimeout(650);assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),config.name+' overflow '+name);await page.screenshot({path:path.join(output,config.name+'-'+name+'.png'),fullPage:false});};
  await page.keyboard.press('Tab');assert.ok(await page.locator('.skip').evaluate(e=>e===document.activeElement));await page.keyboard.press('Enter');assert.ok(await page.locator('#main').evaluate(e=>e===document.activeElement));await shot('home');assert.equal(await page.locator('.map-node').count(),12);
  const axe=await new AxeBuilder({page}).withTags(['wcag2a','wcag2aa','wcag21aa']).analyze();results.push({viewport:config.name,accessibility:axe.violations.map(v=>({id:v.id,impact:v.impact,nodes:v.nodes.map(n=>({target:n.target,summary:n.failureSummary}))}))});
- await page.locator('.map-node[href="#section/code"]').click();await page.waitForSelector('.track-cover');await shot('track');
+ await page.locator('.session-grid').scrollIntoViewIfNeeded();await shot('session');await page.locator('.grid').scrollIntoViewIfNeeded();await shot('catalogue');await page.locator('.map-node[href="#section/code"]').click();await page.waitForSelector('.track-cover');await shot('track');
  await page.locator('.track-lessons a[href="#lesson/code/code-briques"]').click();await page.waitForSelector('#reformBox');assert.ok((await page.locator('pre').textContent()).includes('for i in range(3):'));await shot('lesson-top');
  await page.evaluate(()=>window.scrollTo(0,document.documentElement.scrollHeight*.4));await shot('lesson-middle');
  await page.locator('#reformBox').fill('Une variable garde une valeur. Une condition choisit une action. Une boucle répète une instruction.');await page.locator('#doneBtn').click();assert.equal(await page.locator('#doneBtn').getAttribute('aria-pressed'),'true');
@@ -30,6 +30,6 @@ for(const config of [{name:'desktop',width:1440,height:1000},{name:'mobile',widt
  if(config.reducedMotion)assert.equal(await page.locator('.track-art-front').count(),0);
  await context.close();
 }
-assert.deepEqual(errors,[]);fs.writeFileSync(path.join(output,'results.json'),JSON.stringify({status:'functional-passed',errors,results},null,2));console.log('PASS: browser flows at 1440, 390, 320 and reduced motion; screenshots saved.');
+assert.deepEqual(errors,[]);fs.writeFileSync(path.join(output,'results.json'),JSON.stringify({status:'functional-passed',errors,results},null,2));console.log('PASS: browser flows at 1440, 1024, 390, 320 and reduced motion; screenshots saved.');
 const violations=results.flatMap(x=>x.accessibility.filter(v=>['critical','serious'].includes(v.impact)));assert.deepEqual(violations,[],'Serious accessibility violations');
 }finally{await browser.close();server.close()}})().catch(e=>{fs.writeFileSync(path.join(output,'failure.txt'),e.stack);console.error(e);server.close();process.exitCode=1});
